@@ -1,11 +1,12 @@
-module Bowling (someFunc, toFrames, score) where
+module Bowling (someFunc, toFrames, score, Frame(Open,Spare,Strike)) where
 
 someFunc :: IO ()
 someFunc = putStrLn "someFunc"
 
-data Frame = Open Int Int 
+data Frame = Open Int Int
             | Spare Int Int 
             | Strike Int Int 
+            deriving (Eq, Show)
 
 -- data Frame = Open { pins1 :: Int
 --                     , pins2 :: Int
@@ -20,5 +21,5 @@ data Frame = Open Int Int
 toFrames :: [Int] -> [Frame]
 score :: [Frame] -> Int
 
-toFrames = undefined
+toFrames pins = replicate 10 (Open 0 0)
 score = undefined

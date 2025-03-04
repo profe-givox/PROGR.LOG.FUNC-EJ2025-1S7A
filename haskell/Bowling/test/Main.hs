@@ -5,7 +5,7 @@ module Main (main) where
 
 import Test.Tasty
 import Test.Tasty.HUnit
-import Bowling
+import Bowling (toFrames, Frame(Open))
 
 bowlingSuite :: TestTree
 bowlingSuite = testGroup "Bowling tests"
