@@ -19,7 +19,7 @@ data Frame = Open Int Int
 --                     }
 
 toFrames :: [Int] -> Maybe [Frame]
-score :: [Frame] -> Int
+
 
 --toFrames pins = replicate 10 (Open 0 0)
 toFrames pins = go 1 pins
@@ -44,4 +44,11 @@ frameScore (Open x y) = x + y
 frameScore (Spare _ y) = 10 + y
 frameScore (Strike x y) = 10 + x + y
 
-score = undefined
+score :: [Frame] -> Int
+--score frames =  sum $ map frameScore frames
+score = sum . map frameScore
+
+scorePlay :: [Int] -> Maybe Int
+scorePlay pins = do
+    frames <- toFrames pins
+    return $ score frames    
