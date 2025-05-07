@@ -13,3 +13,5 @@ accion_efecto_planta(abrojo, diuretico).
 accion_efecto_planta(abrojo, antiinflamatorio).
 modo_tratamiento(abrojo, tres_veces_dia).
 precaucion_planta(abrojo, embarazo).
+
+% Pagina 38.  acanto
