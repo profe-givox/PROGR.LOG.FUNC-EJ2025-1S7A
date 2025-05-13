@@ -386,6 +386,102 @@ accion_efecto_planta(menta, refrescante).
 modo_tratamiento(menta, tomar_te_dos_tres_veces_dia).
 precaucion_planta(menta, reflujo_gastroesofagico).
 
+% Página 140 ruda
+nombre_cientifico(ruda, ruta_graveolens).
+continente_origen(ruda, europa).
+pais_origen(ruda, espana).
+modo_preparacion(ruda, infusion).
+enfermedad(menstruacion).
+enfermedad(colicos).
+enfermedad(nerviosismo).
+sintoma_enfermedad(menstruacion, retraso_menstrual).
+sintoma_enfermedad(colicos, dolor_abdominal).
+sintoma_enfermedad(nerviosismo, ansiedad).
+trata_enfermedad(ruda, menstruacion).
+trata_enfermedad(ruda, colicos).
+trata_enfermedad(ruda, nerviosismo).
+accion_efecto_planta(ruda, calmante).
+accion_efecto_planta(ruda, emenagoga).
+accion_efecto_planta(ruda, antiespasmodica).
+modo_tratamiento(ruda, con_moderacion).
+precaucion_planta(ruda, evitar_embarazo).
+
+
+% Página 141 ruibarbo
+nombre_cientifico(ruibarbo, rheum_palmatum).
+continente_origen(ruibarbo, asia).
+pais_origen(ruibarbo, china).
+modo_preparacion(ruibarbo, cocimiento).
+enfermedad(estrenimiento).
+enfermedad(digestion).
+enfermedad(higado).
+sintoma_enfermedad(estrenimiento, dificultad_evacuacion).
+sintoma_enfermedad(digestion, pesadez_estomacal).
+sintoma_enfermedad(higado, insuficiencia_hepatica).
+trata_enfermedad(ruibarbo, estrenimiento).
+trata_enfermedad(ruibarbo, digestion).
+trata_enfermedad(ruibarbo, higado).
+accion_efecto_planta(ruibarbo, laxante).
+accion_efecto_planta(ruibarbo, digestiva).
+accion_efecto_planta(ruibarbo, tonica).
+modo_tratamiento(ruibarbo, pequenas_dosis).
+precaucion_planta(ruibarbo, no_usar_en_embarazo).
+
+
+% Página 142 salvia
+nombre_cientifico(salvia, salvia_officinalis).
+continente_origen(salvia, europa).
+pais_origen(salvia, italia).
+modo_preparacion(salvia, infusion).
+enfermedad(dolor_garganta).
+enfermedad(digestion).
+enfermedad(sudoracion_excesiva).
+sintoma_enfermedad(dolor_garganta, inflamacion_faringea).
+sintoma_enfermedad(digestion, pesadez_estomacal).
+sintoma_enfermedad(sudoracion_excesiva, sudor_constante).
+trata_enfermedad(salvia, dolor_garganta).
+trata_enfermedad(salvia, digestion).
+trata_enfermedad(salvia, sudoracion_excesiva).
+accion_efecto_planta(salvia, astringente).
+accion_efecto_planta(salvia, digestiva).
+accion_efecto_planta(salvia, antiseptica).
+modo_tratamiento(salvia, hacer_gargaras_o_beber).
+precaucion_planta(salvia, no_usar_en_grandes_cantidades).
+
+
+% Página 143 sen
+nombre_cientifico(sen, senna_alexandrina).
+continente_origen(sen, africa).
+pais_origen(sen, egipto).
+modo_preparacion(sen, infusion).
+enfermedad(estrenimiento).
+sintoma_enfermedad(estrenimiento, dificultad_evacuacion).
+trata_enfermedad(sen, estrenimiento).
+accion_efecto_planta(sen, laxante).
+modo_tratamiento(sen, una_taza_diaria_por_una_semana).
+precaucion_planta(sen, no_uso_prolongado).
+
+
+% Página 144 sanguinaria
+nombre_cientifico(sanguinaria, sanguinaria_canadensis).
+continente_origen(sanguinaria, america).
+pais_origen(sanguinaria, estados_unidos).
+modo_preparacion(sanguinaria, cocimiento).
+enfermedad(problemas_respiratorios).
+enfermedad(dolor_garganta).
+enfermedad(tos).
+sintoma_enfermedad(problemas_respiratorios, dificultad_respirar).
+sintoma_enfermedad(dolor_garganta, inflamacion_faringea).
+sintoma_enfermedad(tos, irritacion_bronquial).
+trata_enfermedad(sanguinaria, problemas_respiratorios).
+trata_enfermedad(sanguinaria, dolor_garganta).
+trata_enfermedad(sanguinaria, tos).
+accion_efecto_planta(sanguinaria, expectorante).
+accion_efecto_planta(sanguinaria, estimulante).
+accion_efecto_planta(sanguinaria, antiseptica).
+modo_tratamiento(sanguinaria, beber_o_hacer_gargaras).
+precaucion_planta(sanguinaria, toxicidad_alta_si_se_abusa).
+
 % Pagina 150 tila
 nombre_cientifico(tila, tilia_mexicana).
 continente_origen(tila, america).
