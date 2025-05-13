@@ -191,6 +191,142 @@ accion_efecto_planta(cola_de_caballo, remineralizante).
 modo_tratamiento(cola_de_caballo, una_a_dos_veces_dia).
 precaucion_planta(cola_de_caballo, evitar_en_insuficiencia_renal).
 
+% Pagina 77 cuajiote
+nombre_cientifico(cuajiote, bursera_morelense).
+continente_origen(cuajiote, america).
+pais_origen(cuajiote, mexico).
+modo_preparacion(cuajiote, infusion).
+enfermedad(anasarca).
+enfermedad(estreñimiento_cronico).
+sintoma_enfermedad(anasarca, hinchazon_generalizada).
+sintoma_enfermedad(estreñimiento_cronico, estreñimiento).
+trata_enfermedad(cuajiote, anasarca).
+trata_enfermedad(cuajiote, estreñimiento_cronico).
+accion_efecto_planta(cuajiote, laxante).
+modo_tratamiento(cuajiote, uso_moderado_no_mas_de_3_dias).
+precaucion_planta(cuajiote, puede_provocar_gastroenteritis).
+precaucion_planta(cuajiote, puede_provocar_rectitis).
+precaucion_planta(cuajiote, puede_provocar_enterocolitis).
+
+% Pagina 78 cuasia
+nombre_cientifico(cuasia, quassia_amara).
+continente_origen(cuasia, america).
+pais_origen(cuasia, costa_rica).
+pais_origen(cuasia, nicaragua).
+pais_origen(cuasia, panama).
+pais_origen(cuasia, brasil).
+pais_origen(cuasia, peru).
+pais_origen(cuasia, venezuela).
+pais_origen(cuasia, surinam).
+pais_origen(cuasia, colombia).
+pais_origen(cuasia, argentina).
+pais_origen(cuasia, guyana_francesa).
+pais_origen(cuasia, guyana).
+pais_origen(cuasia, mexico).
+modo_preparacion(cuasia, infusion).
+enfermedad(diabetes).
+enfermedad(artritis).
+enfermedad(reumatismo).
+enfermedad(dolor_corporal).
+enfermedad(migraña).
+enfermedad(dolor_de_estomago).
+sintoma_enfermedad(diabetes, mucha_sed).
+sintoma_enfermedad(diabetes, fatiga).
+sintoma_enfermedad(diabetes, nivel_alto_de_glucosa).
+sintoma_enfermedad(artritis, dolor_articular).
+sintoma_enfermedad(artritis, inflamacion).
+sintoma_enfermedad(reumatismo, rigidez_articular).
+sintoma_enfermedad(reumatismo, hinchazon).
+sintoma_enfermedad(dolor_corporal, dolor).
+sintoma_enfermedad(migraña, dolor_de_cabeza).
+sintoma_enfermedad(dolor_de_estomago, nausea).
+sintoma_enfermedad(dolor_de_estomago, dolor_de_estomago).
+trata_enfermedad(cuasia, diabetes).
+trata_enfermedad(cuasia, artritis).
+trata_enfermedad(cuasia, reumatismo).
+trata_enfermedad(cuasia, dolor_corporal).
+trata_enfermedad(cuasia, migraña).
+trata_enfermedad(cuasia, dolor_de_estomago).
+accion_efecto_planta(cuasia, analgesico).
+accion_efecto_planta(cuasia, antiinflamatorio).
+accion_efecto_planta(cuasia, hipoglucemiante).
+modo_tratamiento(cuasia, una_taza_por_dia).
+precaucion_planta(cuasia, puede_provocar_irritacion_gastrica).
+precaucion_planta(cuasia, puede_provocar_vomito).
+precaucion_planta(cuasia, puede_provocar_estupor).
+
+% Pagina 79 damiana
+nombre_cientifico(damiana, turnera_diffusa).
+continente_origen(damiana, america).
+pais_origen(damiana, mexico).
+modo_preparacion(damiana, infusion).
+enfermedad(hipersexualidad).
+enfermedad(alcoholismo).
+enfermedad(diabetes).
+enfermedad(nefritis).
+enfermedad(orquitis).
+enfermedad(males_de_la_vejiga).
+sintoma_enfermedad(hipersexualidad, ansiedad).
+sintoma_enfermedad(hipersexualidad, impulsos_sexuales_intensos).
+sintoma_enfermedad(hipersexualidad, carencia_de_control_de_deseos).
+sintoma_enfermedad(alcoholismo, ansiedad).
+sintoma_enfermedad(alcoholismo, deseo_de_beber).
+sintoma_enfermedad(alcoholismo, tolerancia_alcoholica).
+sintoma_enfermedad(alcoholismo, perdida_del_control).
+sintoma_enfermedad(diabetes, mucha_sed).
+sintoma_enfermedad(diabetes, nivel_alto_de_glucosa).
+sintoma_enfermedad(nefritis, dolor_en_riñones).
+sintoma_enfermedad(nefritis, sangre_en_orina).
+sintoma_enfermedad(orquitis, hinchazon_en_testiculos).
+sintoma_enfermedad(orquitis, dolor_al_orinar).
+sintoma_enfermedad(males_de_la_vejiga, dolor_al_orinar).
+sintoma_enfermedad(males_de_la_vejiga, urgencia_frecuente).
+trata_enfermedad(damiana, hipersexualidad).
+trata_enfermedad(damiana, alcoholismo).
+trata_enfermedad(damiana, diabetes).
+trata_enfermedad(damiana, nefritis).
+trata_enfermedad(damiana, orquitis).
+trata_enfermedad(damiana, males_de_la_vejiga).
+accion_efecto_planta(damiana, relajante).
+accion_efecto_planta(damiana, diuretico).
+accion_efecto_planta(damiana, antiinflamatorio).
+modo_tratamiento(damiana, de_una_a_dos_tazas_al_dia).
+precaucion_planta(damiana, puede_provocar_insomnio).
+precaucion_planta(damiana, puede_provocar_irritacion_gastrica).
+
+%Pagina 80 diente_de_leon
+nombre_cientifico(diente_de_leon, taraxacum officinale).
+continente_origen(diente_de_leon, europa).
+continente_origen(diente_de_leon, asia).
+pais_origen(diente_de_leon, francia).
+pais_origen(diente_de_leon, alemania).
+pais_origen(diente_de_leon, españa).
+pais_origen(diente_de_leon, italia).
+pais_origen(diente_de_leon, reino_unido).
+pais_origen(diente_de_leon, rusia).
+pais_origen(diente_de_leon, china).
+pais_origen(diente_de_leon, japon).
+modo_preparacion(diente_de_leon, infusion).
+enfermedad(anemia).
+enfermedad(acumulacion_de_toxinas).
+sintoma_enfermedad(anemia, debilidad).
+sintoma_enfermedad(acumulacion_de_toxinas, toxinas_en_riñon).
+sintoma_enfermedad(acumulacion_de_toxinas, toxinas_en_higado).
+sintoma_enfermedad(acumulacion_de_toxinas, urea_en_sangre).
+trata_enfermedad(diente_de_leon, anemia).
+trata_enfermedad(diente_de_leon, acumulacion_de_toxinas).
+accion_efecto_planta(diente_de_leon, aperitivo).
+accion_efecto_planta(diente_de_leon, depurativo).
+accion_efecto_planta(diente_de_leon, laxante).
+accion_efecto_planta(diente_de_leon, colagogo).
+accion_efecto_planta(diente_de_leon, diuretico).
+accion_efecto_planta(diente_de_leon, alimenticio).
+modo_tratamiento(diente_de_leon, te_tomado_en_ayunas).
+precaucion_planta(diente_de_leon, puede_provocar_diarrea).
+precaucion_planta(diente_de_leon, puede_provocar_acidez_estomacal).
+precaucion_planta(diente_de_leon, puede_provocar_dolor_abdominal).
+precaucion_planta(diente_de_leon, puede_provocar_gases).
+
 % Pagina 81.  digitaria
 nombre_cientifico(digitaria, 'Digitalis purpurea').
 contienente_origen(digitaria, europa).
