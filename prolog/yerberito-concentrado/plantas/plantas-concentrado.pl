@@ -71,6 +71,74 @@ accion_efecto_planta(cardo_santo, oftalmica).
 modo_tratamiento(cardo_santo, aplicar_gotas_ojos).
 precaucion_planta(cardo_santo, contacto_prolongado_ojos).
 
+% Pagina 69 chichigua
+nombre_cientifico(chichigua, solanum_mammosum).
+continente_origen(chichigua, america).
+pais_origen(chichigua, mexico).
+modo_preparacion(chichigua, decoccion).
+enfermedad(dermatitis).
+enfermedad(inflamacion).
+enfermedad(resfriado).
+sintoma_enfermedad(dermatitis, erupcion_cutanea).
+sintoma_enfermedad(inflamacion, hinchazon).
+sintoma_enfermedad(resfriado, constipado).
+trata_enfermedad(chichigua, dermatitis).
+trata_enfermedad(chichigua, inflamacion).
+accion_efecto_planta(chichigua, antiinflamatorio).
+accion_efecto_planta(chichigua, antiseptico).
+modo_tratamiento(chichigua, uso_topico_dos_veces_dia).
+precaucion_planta(chichigua, toxica_si_se_ingiere).
+
+% Pagina 70 cilantro
+nombre_cientifico(cilantro, coriandrum_sativum).
+continente_origen(cilantro, asia).
+pais_origen(cilantro, iran).
+modo_preparacion(cilantro, infusion).
+enfermedad(problemas_digestivos).
+enfermedad(ansiedad).
+sintoma_enfermedad(problemas_digestivos, colicos).
+sintoma_enfermedad(ansiedad, nerviosismo).
+trata_enfermedad(cilantro, problemas_digestivos).
+trata_enfermedad(cilantro, ansiedad).
+accion_efecto_planta(cilantro, carminativo).
+accion_efecto_planta(cilantro, relajante).
+modo_tratamiento(cilantro, dos_veces_dia).
+precaucion_planta(cilantro, evitar_en_embarazo_excesivo).
+
+% Pagina 71 cocolmeca
+nombre_cientifico(cocolmeca, smilax_spinosa).
+continente_origen(cocolmeca, america).
+pais_origen(cocolmeca, mexico).
+modo_preparacion(cocolmeca, decoccion).
+enfermedad(reumatismo).
+enfermedad(acne).
+enfermedad(anema).
+sintoma_enfermedad(reumatismo, dolor_articular).
+sintoma_enfermedad(acne, inflamacion_piel).
+sintoma_enfermedad(anemia, dolor_pecho).
+trata_enfermedad(cocolmeca, reumatismo).
+trata_enfermedad(cocolmeca, acne).
+accion_efecto_planta(cocolmeca, depurativo).
+accion_efecto_planta(cocolmeca, antiinflamatorio).
+modo_tratamiento(cocolmeca, una_vez_dia).
+precaucion_planta(cocolmeca, no_usar_por_periodos_prolongados).
+
+% Pagina 72 cola de caballo
+nombre_cientifico(cola_de_caballo, equisetum_arvensis).
+continente_origen(cola_de_caballo, europa).
+pais_origen(cola_de_caballo, francia).
+modo_preparacion(cola_de_caballo, infusion).
+enfermedad(retencion_liquidos).
+enfermedad(calculos_renales).
+sintoma_enfermedad(retencion_liquidos, hinchazon).
+sintoma_enfermedad(calculos_renales, dolor_renal).
+trata_enfermedad(cola_de_caballo, retencion_liquidos).
+trata_enfermedad(cola_de_caballo, calculos_renales).
+accion_efecto_planta(cola_de_caballo, diuretico).
+accion_efecto_planta(cola_de_caballo, remineralizante).
+modo_tratamiento(cola_de_caballo, una_a_dos_veces_dia).
+precaucion_planta(cola_de_caballo, evitar_en_insuficiencia_renal).
+
 % Pagina 81.  digitaria
 nombre_cientifico(digitaria, 'Digitalis purpurea').
 contienente_origen(digitaria, europa).
@@ -127,6 +195,78 @@ accion_efecto_planta(enebro, antiseptica).
 accion_efecto_planta(enebro, diuretica).
 modo_tratamiento(enebro, tomar_te_o_lavados_externos).
 precaucion_planta(enebro, evitar_problemas_renales_embarazo).
+
+% Pagina 95 guaco
+nombre_cientifico(guaco, aristolochia_odoratissima).
+modo_preparacion(guaco, infusion_cada_3_horas_o_cataplasma).
+enfermedad(alergia).
+enfermedad(vitiligo).
+enfermedad(asma).
+trata_enfermedad(guaco, alergia).
+trata_enfermedad(guaco, vitiligo).
+trata_enfermedad(guaco, asma).
+accion_efecto_planta(guaco, antiinflamatorio).
+accion_efecto_planta(guaco, broncodilatador).
+modo_tratamiento(guaco, infusion_o_aplicacion_externa).
+precaucion_planta(guaco, uso_prolongado).
+
+% Pagina 96 guazuma
+nombre_cientifico(guazuma, guazuma_ulmifolia).
+modo_preparacion(guazuma, infusion_de_hojas).
+enfermedad(disenteria).
+enfermedad(diarrea).
+enfermedad(inflamacion_intestinal).
+trata_enfermedad(guazuma, disenteria).
+trata_enfermedad(guazuma, diarrea).
+trata_enfermedad(guazuma, inflamacion_intestinal).
+accion_efecto_planta(guazuma, antidiarreico).
+accion_efecto_planta(guazuma, antiinflamatorio).
+modo_tratamiento(guazuma, infusion_colada_y_fria).
+precaucion_planta(guazuma, alergia_hojas).
+
+% Pagina 97 guayacan
+nombre_cientifico(guayacan, guaiacum_sanctum).
+modo_preparacion(guayacan, infusion_de_flores_o_corteza).
+enfermedad(tos).
+enfermedad(tuberculosis).
+enfermedad(sifilis).
+enfermedad(reumatismo).
+trata_enfermedad(guayacan, tos).
+trata_enfermedad(guayacan, tuberculosis).
+trata_enfermedad(guayacan, sifilis).
+trata_enfermedad(guayacan, reumatismo).
+accion_efecto_planta(guayacan, expectorante).
+accion_efecto_planta(guayacan, antiesifilitico).
+modo_tratamiento(guayacan, infusion_5_dias_descanso_5_dias).
+precaucion_planta(guayacan, interaccion_medicamentos).
+
+% Pagina 98 hamamelis
+nombre_cientifico(hamamelis, hamamelis_virginica).
+modo_preparacion(hamamelis, infusion_de_hojas).
+enfermedad(hemorroides).
+enfermedad(varices).
+enfermedad(retencion_orina).
+trata_enfermedad(hamamelis, hemorroides).
+trata_enfermedad(hamamelis, varices).
+trata_enfermedad(hamamelis, retencion_orina).
+accion_efecto_planta(hamamelis, venotonico).
+accion_efecto_planta(hamamelis, diuretico).
+modo_tratamiento(hamamelis, infusion_15_minutos).
+precaucion_planta(hamamelis, hipersensibilidad).
+
+% Pagina 99 helenio
+nombre_cientifico(helenio, inula_helenium).
+modo_preparacion(helenio, infusion_de_raiz).
+enfermedad(bronquitis).
+enfermedad(tos_ferina).
+enfermedad(retencion_orina).
+trata_enfermedad(helenio, bronquitis).
+trata_enfermedad(helenio, tos_ferina).
+trata_enfermedad(helenio, retencion_orina).
+accion_efecto_planta(helenio, expectorante).
+accion_efecto_planta(helenio, diuretico).
+modo_tratamiento(helenio, infusion_diaria).
+precaucion_planta(helenio, dosis_excesiva).
 
 % Pagina 115.  marrubio
 nombre_cientifico(marrubio, 'Marrubium vulgare').
@@ -245,3 +385,99 @@ accion_efecto_planta(menta, calmante).
 accion_efecto_planta(menta, refrescante).
 modo_tratamiento(menta, tomar_te_dos_tres_veces_dia).
 precaucion_planta(menta, reflujo_gastroesofagico).
+
+% Pagina 150 tila
+nombre_cientifico(tila, tilia_mexicana).
+continente_origen(tila, america).
+pais_origen(tila, mexico).
+modo_preparacion(tila, infusion).
+enfermedad(insomnio).
+enfermedad(ansiedad).
+enfermedad(hipertension).
+sintoma_enfermedad(insomnio, dificultad_para_dormir).
+trata_enfermedad(tila, insomnio).
+trata_enfermedad(tila, ansiedad).
+accion_efecto_planta(tila, calmante).
+accion_efecto_planta(tila, sedante).
+modo_tratamiento(tila, una_vez_noche).
+precaucion_planta(tila, hipersensibilidad).
+
+% Pagina 151 té de milpa
+nombre_cientifico(te_de_milpa, zea_mays).
+continente_origen(te_de_milpa, america).
+pais_origen(te_de_milpa, mexico).
+modo_preparacion(te_de_milpa, cocimiento).
+enfermedad(infeccion_urinaria).
+enfermedad(retencion_liquidos).
+enfermedad(calculos_renales).
+sintoma_enfermedad(infeccion_urinaria, dolor_al_orinar).
+trata_enfermedad(te_de_milpa, infeccion_urinaria).
+trata_enfermedad(te_de_milpa, retencion_liquidos).
+accion_efecto_planta(te_de_milpa, diuretico).
+accion_efecto_planta(te_de_milpa, depurativo).
+modo_tratamiento(te_de_milpa, dos_veces_dia).
+precaucion_planta(te_de_milpa, alergia_maiz).
+
+% Pagina 152 toloache
+nombre_cientifico(toloache, datura_stramonium).
+continente_origen(toloache, america).
+pais_origen(toloache, mexico).
+modo_preparacion(toloache, infusion).
+enfermedad(dolor_muscular).
+enfermedad(asma).
+enfermedad(insomnio).
+sintoma_enfermedad(dolor_muscular, rigidez_muscular).
+trata_enfermedad(toloache, dolor_muscular).
+trata_enfermedad(toloache, asma).
+accion_efecto_planta(toloache, analgesico).
+accion_efecto_planta(toloache, broncodilatador).
+modo_tratamiento(toloache, uso_externo_o_dosis_baja).
+precaucion_planta(toloache, toxicidad_alta).
+
+% Pagina 153 tronadora
+nombre_cientifico(tronadora, tecoma_stans).
+continente_origen(tronadora, america).
+pais_origen(tronadora, mexico).
+modo_preparacion(tronadora, infusion).
+enfermedad(diabetes).
+enfermedad(fiebre).
+enfermedad(problemas_digestivos).
+sintoma_enfermedad(diabetes, glucosa_alta).
+trata_enfermedad(tronadora, diabetes).
+trata_enfermedad(tronadora, fiebre).
+accion_efecto_planta(tronadora, hipoglucemiante).
+accion_efecto_planta(tronadora, antipiretico).
+modo_tratamiento(tronadora, dos_veces_dia).
+precaucion_planta(tronadora, hipoglucemia).
+
+% Pagina 154 tripa de judas
+nombre_cientifico(tripa_de_judas, leonotis_nepetifolia).
+continente_origen(tripa_de_judas, america).
+pais_origen(tripa_de_judas, mexico).
+modo_preparacion(tripa_de_judas, cocimiento).
+enfermedad(tos).
+enfermedad(gripe).
+enfermedad(dolor_estomacal).
+sintoma_enfermedad(tos, irritacion_garganta).
+trata_enfermedad(tripa_de_judas, tos).
+trata_enfermedad(tripa_de_judas, gripe).
+accion_efecto_planta(tripa_de_judas, expectorante).
+accion_efecto_planta(tripa_de_judas, antiespasmodico).
+modo_tratamiento(tripa_de_judas, tres_veces_dia).
+precaucion_planta(tripa_de_judas, dosis_excesiva).
+
+% Pagina 155 uva
+nombre_cientifico(uva, vitis_vinifera).
+continente_origen(uva, europa).
+pais_origen(uva, espana).
+modo_preparacion(uva, jugo_o_consumo_directo).
+enfermedad(estreñimiento).
+enfermedad(hipertension).
+enfermedad(anemia).
+sintoma_enfermedad(estreñimiento, dificultad_evacuar).
+trata_enfermedad(uva, estreñimiento).
+trata_enfermedad(uva, hipertension).
+accion_efecto_planta(uva, antioxidante).
+accion_efecto_planta(uva, laxante).
+modo_tratamiento(uva, consumo_diario).
+precaucion_planta(uva, diabetes).
