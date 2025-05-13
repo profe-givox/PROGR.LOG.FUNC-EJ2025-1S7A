@@ -401,6 +401,97 @@ accion_efecto_planta(helenio, diuretico).
 modo_tratamiento(helenio, infusion_diaria).
 precaucion_planta(helenio, dosis_excesiva).
 
+% Pagina 100. Hierba del pollo
+nombre_cientifico(hierba_del_pollo, tradescantia_zebrina).
+contienente_origen(hierba_del_pollo, america).
+pais_origen(hierba_del_pollo, mexico).
+modo_preparacion(hierba_del_pollo, machacar).
+modo_preparacion(hierba_del_pollo, infusion).
+enfermedad(hemorragia).
+enfermedad(problemas_renales).
+sintoma_enfermedad(hemorragia, sangrado).
+trata_enfermedad(hierba_del_pollo, hemorragia).
+trata_enfermedad(hierba_del_pollo, problemas_renales).
+accion_efecto_planta(hierba_del_pollo, hemostatico).
+accion_efecto_planta(hierba_del_pollo, cicatrizante).
+accion_efecto_planta(hierba_del_pollo, diuretico).
+modo_tratamiento(hierba_del_pollo, aplicacion_local).
+modo_tratamiento(hierba_del_pollo, tomar_te).
+precaucion_planta(hierba_del_pollo, embarazo).
+
+% Pagina 101. Hinojo 
+nombre_cientifico(hinojo, foeniculum_vulgare).
+contienente_origen(hinojo, europa).
+pais_origen(hinojo, mexico).
+modo_preparacion(hinojo, infusion).
+enfermedad(gases).
+enfermedad(flatulencias).
+enfermedad(obstruccion_mucosa_pecho).
+sintoma_enfermedad(gases, dolor_abdominal).
+sintoma_enfermedad(flatulencias, distension_abdominal).
+trata_enfermedad(hinojo, gases).
+trata_enfermedad(hinojo, flatulencias).
+accion_efecto_planta(hinojo, digestivo).
+modo_tratamiento(hinojo, tomar_te).
+precaucion_planta(hinojo, embarazo).
+
+% Pagina 102. Jalapa (Ipomea purga)
+nombre_cientifico(jalapa, ipomea_purga).
+contienente_origen(jalapa, america).
+pais_origen(jalapa, mexico).
+modo_preparacion(jalapa, cocimiento).
+enfermedad(disentiria).
+enfermedad(estreñimiento).
+enfermedad(indigestión).
+enfermedad(apoplejia).
+enfermedad(congestion_cerebral).
+sintoma_enfermedad(disentiria, diarrea).
+sintoma_enfermedad(estreñimiento, dificultad_defecacion).
+sintoma_enfermedad(indigestión, malestar_abdominal).
+trata_enfermedad(jalapa, disenteria).
+trata_enfermedad(jalapa, estreñimiento).
+trata_enfermedad(jalapa, indigestión).
+trata_enfermedad(jalapa, apoplejía).
+trata_enfermedad(jalapa, congestión_cerebral).
+accion_efecto_planta(jalapa, purgante).
+modo_tratamiento(jalapa, tomar_en_ayunas).
+
+% Pagina 103. Ipecacuana (polygala hondurana)
+nombre_cientifico(ipecacuana, polygala_hondurana).
+contienente_origen(ipecacuana, america).
+pais_origen(ipecacuana, mexico).
+modo_preparacion(ipecacuana, infusion).
+enfermedad(tos).
+sintoma_enfermedad(tos, tos_seca).
+trata_enfermedad(ipecacuana, tos).
+accion_efecto_planta(ipecacuana, expectorante).
+modo_tratamiento(ipecacuana, tomar_infusion).
+
+% Pagina 104. Jazmín Amarillo (Gelsemium sempervirens)
+nombre_cientifico(jazmin_amarillo, gelsemium_sempervirens).
+contienente_origen(jazmin_amarillo, america).
+pais_origen(jazmin_amarillo, mexico).
+modo_preparacion(jazmin_amarillo, tintura).
+enfermedad(dolores_de_cabeza).
+enfermedad(reuma).
+enfermedad(espasmos).
+enfermedad(asmo_bronquial).
+enfermedad(menstruacion_dolorosa).
+sintoma_enfermedad(dolores_de_cabeza, dolor_intenso).
+sintoma_enfermedad(reuma, dolor_articular).
+sintoma_enfermedad(espasmos, contraccion_muscular).
+sintoma_enfermedad(asmo_bronquial, dificultad_respiratoria).
+trata_enfermedad(jazmin_amarillo, dolores_de_cabeza).
+trata_enfermedad(jazmin_amarillo, reuma).
+trata_enfermedad(jazmin_amarillo, espasmos).
+trata_enfermedad(jazmin_amarillo, asma_bronquial).
+trata_enfermedad(jazmin_amarillo, menstruacion_dolorosa).
+accion_efecto_planta(jazmin_amarillo, analgésico).
+accion_efecto_planta(jazmin_amarillo, antiespasmódico).
+precaucion_planta(jazmin_amarillo, problemas_corazon).
+precaucion_planta(jazmin_amarillo, problemas_riñones).
+modo_tratamiento(jazmin_amarillo, tomar_tintura).
+
 % Pagina 115.  marrubio
 nombre_cientifico(marrubio, 'Marrubium vulgare').
 contienente_origen(marrubio, europa).
