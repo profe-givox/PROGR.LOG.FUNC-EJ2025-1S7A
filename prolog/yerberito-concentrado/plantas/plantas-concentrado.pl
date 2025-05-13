@@ -1013,3 +1013,69 @@ accion_efecto_planta(uva, antioxidante).
 accion_efecto_planta(uva, laxante).
 modo_tratamiento(uva, consumo_diario).
 precaucion_planta(uva, diabetes).
+
+% --- Colchino (Argemone mexicana) ---
+nombre_cientifico(colchino, 'Argemone mexicana').
+origen(colchino, mexico).
+trata(colchino, dolor_estomacal).
+trata(colchino, parasitos).
+trata(colchino, problemas_hepaticos).
+sintoma(dolor_estomacal, dolor_abdominal).
+sintoma(parasitos, comezon_anal).
+sintoma(parasitos, dolor_abdominal).
+sintoma(problemas_hepaticos, color_amarillo_en_la_piel).
+efecto(colchino, analgesico).
+efecto(colchino, antiparasitario).
+efecto(colchino, hepatoprotector).
+preparacion(colchino, infusion_de_hojas).
+precaucion(colchino, dosis_alta_toxica).
+tratamiento(colchino, tomar_taza_infusion_dos_veces_al_dia_por_5_dias).
+
+% --- Comino (Cuminum cyminum) ---
+nombre_cientifico(comino, 'Cuminum cyminum').
+origen(comino, asia).
+trata(comino, indigestión).
+trata(comino, flatulencia).
+trata(comino, colico_menstrual).
+sintoma(indigestión, pesadez_estomacal).
+sintoma(flatulencia, gases).
+sintoma(colico_menstrual, dolor_abdominal).
+efecto(comino, carminativo).
+efecto(comino, antiespasmodico).
+efecto(comino, digestivo).
+preparacion(comino, infusion_de_semillas).
+precaucion(comino, evitar_en_embarazo).
+tratamiento(comino, tomar_taza_infusion_tras_comidas).
+
+% --- Colpachi (Croton glabellus) ---
+nombre_cientifico(colpachi, 'Croton glabellus').
+origen(colpachi, mexico).
+trata(colpachi, sarampión).
+trata(colpachi, afecciones_de_la_piel).
+trata(colpachi, fiebre).
+sintoma(sarampión, fiebre).
+sintoma(sarampión, manchas_rojas).
+sintoma(afecciones_de_la_piel, irritacion).
+sintoma(fiebre, temperatura_alta).
+efecto(colpachi, antipiretico).
+efecto(colpachi, antiseptico).
+efecto(colpachi, dermatologico).
+preparacion(colpachi, decoccion_de_corteza).
+precaucion(colpachi, evitar_en_lactancia).
+tratamiento(colpachi, aplicar_infusion_tibia_en_piel_2_veces_al_dia).
+
+% --- Cuachalalate (Amphipterygium adstringens) ---
+nombre_cientifico(cuachalalate, 'Amphipterygium adstringens').
+origen(cuachalalate, mexico).
+trata(cuachalalate, ulceras).
+trata(cuachalalate, infecciones_gastrointestinales).
+trata(cuachalalate, problemas_bucales).
+sintoma(ulceras, dolor_interno).
+sintoma(infecciones_gastrointestinales, diarrea).
+sintoma(problemas_bucales, inflamacion_encias).
+efecto(cuachalalate, cicatrizante).
+efecto(cuachalalate, astringente).
+efecto(cuachalalate, antiinflamatorio).
+preparacion(cuachalalate, infusion_o_decoccion_de_corteza).
+precaucion(cuachalalate, no_uso_prolongado).
+tratamiento(cuachalalate, tomar_infusion_3_veces_al_dia_tras_las_comidas).
