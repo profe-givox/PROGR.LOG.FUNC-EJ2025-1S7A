@@ -641,6 +641,104 @@ modo_tratamiento(ortiga, infusion).
 modo_tratamiento(ortiga, cataplasma).
 modo_tratamiento(ortiga, consumo_directo).
 
+% Página 130. Prodigiosa
+nombre_cientifico(prodigiosa, 'Coleosanthus squarrosus').
+continente_origen(prodigiosa, 'America').
+pais_origen(prodigiosa, 'Mexico').
+modo_preparacion(prodigiosa, 'Cocimiento').
+enfermedad(disenteria).
+enfermedad('cirrosis hepatica').
+enfermedad(ictericia).
+sintoma_enfermedad(disenteria, 'dolor abdominal').
+sintoma_enfermedad('cirrosis hepatica', 'picazon en la piel').
+sintoma_enfermedad(ictericia, 'piel amarillenta').
+trata_enfermedad(prodigiosa, disenteria).
+trata_enfermedad(prodigiosa, 'cirrosis hepatica').
+trata_enfermedad(prodigiosa, ictericia).
+accion_efecto_planta(prodigiosa, hepatoprotector).
+accion_efecto_planta(prodigiosa, desintoxicante).
+modo_tratamiento(prodigiosa, 'una taza en ayunas y otra antes de cada comida').
+precaucion_planta(prodigiosa, embarazo).
+
+% Página 131. Pirul
+nombre_cientifico(pirul, 'Schinus molle').
+continente_origen(pirul, 'America').
+pais_origen(pirul, 'Peru').
+modo_preparacion(pirul, 'Maceracion').
+enfermedad(gonorrea).
+sintoma_enfermedad(gonorrea, 'ardor al orinar').
+trata_enfermedad(pirul, gonorrea).
+accion_efecto_planta(pirul, repelente).
+accion_efecto_planta(pirul, purgante).
+modo_tratamiento(pirul, '20 gotas cada 8 horas').
+precaucion_planta(pirul, 'alergia polen').
+
+% Página 132. Pulsatilla
+nombre_cientifico(pulsatilla, 'Anemore pulsatilla').
+continente_origen(pulsatilla, 'Europa').
+pais_origen(pulsatilla, 'Dinamarca').
+modo_preparacion(pulsatilla, 'infusion').
+enfermedad(herpes).
+enfermedad('tos ferina').
+enfermedad('enfermedades venereas').
+enfermedad('jaquecas neuronales').
+sintoma_enfermedad(herpes, llagas).
+sintoma_enfermedad('tos ferina', 'secreción nasal').
+sintoma_enfermedad('enfermedades venereas', 'llagas').
+sintoma_enfermedad('jaquecas neuronales', 'nauseas').
+trata_enfermedad(pulsatilla, herpes).
+trata_enfermedad(pulsatilla, 'tos ferina').
+trata_enfermedad(pulsatilla, 'enfermedades venereas').
+trata_enfermedad(pulsatilla, 'jaquecas neuronales').
+accion_efecto_planta(pulsatilla, calmante).
+accion_efecto_planta(pulsatilla, antiespasmodico).
+modo_tratamiento(pulsatilla, 'tres a cinco veces al dia').
+precaucion_planta(pulsatilla, 'irritante severo en piel').
+
+% Página 133. Quebracho
+nombre_cientifico(quebracho, 'Lysiloma auritum').
+continente_origen(quebracho, 'America').
+pais_origen(quebracho, 'Chile').
+modo_preparacion(quebracho, 'infusion').
+enfermedad('inflamaciones intestinales').
+enfermedad('flujo').
+enfermedad('afecciones del rinon').
+sintoma_enfermedad('inflamaciones intestinales', 'cansancio').
+sintoma_enfermedad('flujo', 'entumecimiento').
+sintoma_enfermedad('afecciones del rinon', 'dolor en espalda').
+trata_enfermedad(quebracho, 'inflamaciones intestinales').
+trata_enfermedad(quebracho, 'flujo').
+trata_enfermedad(quebracho, 'afecciones del rinon').
+accion_efecto_planta(quebracho, antiasmatico).
+accion_efecto_planta(quebracho, descongestivo).
+modo_tratamiento(quebracho, 'una a tres tazas al dia').
+precaucion_planta(quebracho, lactancia).
+
+% Página 134. Quina
+nombre_cientifico(quina, 'Cinchona calisaya').
+continente_origen(quina, 'America').
+pais_origen(quina, 'Bolivia').
+modo_preparacion(quina, 'infusion').
+enfermedad('tos ferina').
+enfermedad('asma').
+enfermedad(tetano).
+enfermedad(epilepsia).
+enfermedad(eclampsia).
+sintoma_enfermedad('tos ferina', 'secreción nasal').
+sintoma_enfermedad('asma', 'sibilancias ').
+sintoma_enfermedad(tetano, 'espasmos').
+sintoma_enfermedad(epilepsia, 'crisis epileptica').
+sintoma_enfermedad(eclampsia, 'convulsiones').
+trata_enfermedad(quina, 'tos ferina').
+trata_enfermedad(quina, 'asma').
+trata_enfermedad(quina, tetano).
+trata_enfermedad(quina, epilepsia).
+trata_enfermedad(quina, eclampsia).
+accion_efecto_planta(quina, antiasmatico).
+accion_efecto_planta(quina, antimicrobiano).
+modo_tratamiento(quina, 'una a dos tazas al dia').
+precaucion_planta(quina, alergia).
+
 % Pagina 150 tila
 nombre_cientifico(tila, tilia_mexicana).
 continente_origen(tila, america).
