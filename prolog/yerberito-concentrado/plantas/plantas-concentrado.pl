@@ -438,6 +438,78 @@ accion_efecto_planta(menta, refrescante).
 modo_tratamiento(menta, tomar_te_dos_tres_veces_dia).
 precaucion_planta(menta, reflujo_gastroesofagico).
 
+% Pagina 135 regaliz
+nombre_cientifico(regaliz, glycyrrhiza_glabra).
+continente_origen(regaliz, europa).
+modo_preparacion(regaliz, infusion).
+enfermedad(tos).
+enfermedad(dolor_garganta).
+enfermedad(problemas_digestivos).
+sintoma_enfermedad(tos, irritacion_garganta).
+trata_enfermedad(regaliz, tos).
+trata_enfermedad(regaliz, dolor_garganta).
+trata_enfermedad(regaliz, problemas_digestivos).
+accion_efecto_planta(regaliz, expectorante).
+accion_efecto_planta(regaliz, digestivo).
+modo_tratamiento(regaliz, pequenas_cantidades).
+precaucion_planta(regaliz, hipertension).
+
+% Pagina 136 retama
+nombre_cientifico(retama, spartium_junceum).
+continente_origen(retama, europa).
+modo_preparacion(retama, cocimiento).
+enfermedad(hipertension).
+enfermedad(reumatismo).
+sintoma_enfermedad(hipertension, presion_alta).
+trata_enfermedad(retama, hipertension).
+trata_enfermedad(retama, reumatismo).
+accion_efecto_planta(retama, diuretico).
+accion_efecto_planta(retama, hipotensor).
+modo_tratamiento(retama, con_precaucion).
+precaucion_planta(retama, toxicidad).
+
+% Pagina 137 ricino
+nombre_cientifico(ricino, ricinus_communis).
+continente_origen(ricino, africa).
+modo_preparacion(ricino, maceracion).
+enfermedad(estrenimiento).
+enfermedad(inflamacion).
+sintoma_enfermedad(estrenimiento, dificultad_evacuacion).
+trata_enfermedad(ricino, estrenimiento).
+trata_enfermedad(ricino, inflamacion).
+accion_efecto_planta(ricino, laxante).
+accion_efecto_planta(ricino, antiinflamatorio).
+modo_tratamiento(ricino, uso_externo_o_ocasional).
+precaucion_planta(ricino, toxicidad_semillas).
+
+% Pagina 138 rosal
+nombre_cientifico(rosal, rosa_centifolia).
+continente_origen(rosal, asia).
+modo_preparacion(rosal, infusion).
+enfermedad(estres).
+enfermedad(problemas_digestivos).
+sintoma_enfermedad(estres, tension_nerviosa).
+trata_enfermedad(rosal, estres).
+trata_enfermedad(rosal, problemas_digestivos).
+accion_efecto_planta(rosal, relajante).
+accion_efecto_planta(rosal, digestivo).
+modo_tratamiento(rosal, dos_tazas_al_dia).
+precaucion_planta(rosal, alergia_cutanea).
+
+% Pagina 139 romero
+nombre_cientifico(romero, rosmarinus_officinalis).
+continente_origen(romero, europa).
+modo_preparacion(romero, infusion).
+enfermedad(fatiga).
+enfermedad(problemas_digestivos).
+sintoma_enfermedad(fatiga, cansancio_general).
+trata_enfermedad(romero, fatiga).
+trata_enfermedad(romero, problemas_digestivos).
+accion_efecto_planta(romero, estimulante).
+accion_efecto_planta(romero, digestivo).
+modo_tratamiento(romero, una_taza_manana).
+precaucion_planta(romero, embarazo).
+=======
 % Pagina 120 Nopal
 nombre_cientifico(nopal, opuntia_tuna).
 continente_origen(nopal, asia).
