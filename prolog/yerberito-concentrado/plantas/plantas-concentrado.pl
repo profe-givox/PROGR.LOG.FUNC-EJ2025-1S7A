@@ -248,6 +248,87 @@ accion_efecto_planta(enebro, diuretica).
 modo_tratamiento(enebro, tomar_te_o_lavados_externos).
 precaucion_planta(enebro, evitar_problemas_renales_embarazo).
 
+% Página 85. Estafiate
+nombre_cientifico(estafiate, 'Artemisia ludoviciana').
+continente_origen(estafiate, 'America').
+pais_origen(estafiate, 'Mexico').
+modo_preparacion(estafiate, 'infusion').
+enfermedad(empacho).
+enfermedad('dolor estomacal').
+sintoma_enfermedad(empacho, 'pesadez en el estómago').
+sintoma_enfermedad('dolor estomacal', 'ardor').
+trata_enfermedad(estafiate, empacho).
+trata_enfermedad(estafiate, 'dolor estomacal').
+accion_efecto_planta(estafiate, digestivo).
+accion_efecto_planta(estafiate, antiparasitario).
+modo_tratamiento(estafiate, 'una taza después de los alimentos').
+precaucion_planta(estafiate, embarazo).
+
+% Página 86. Eucalipto
+nombre_cientifico(eucalipto, 'Eucalyptus globulus').
+continente_origen(eucalipto, 'Oceania').
+pais_origen(eucalipto, 'Australia').
+modo_preparacion(eucalipto, 'vaporizacion').
+enfermedad(gripe).
+enfermedad(resfriado).
+sintoma_enfermedad(gripe, fiebre).
+sintoma_enfermedad(resfriado, 'congestion nasal').
+trata_enfermedad(eucalipto, gripe).
+trata_enfermedad(eucalipto, resfriado).
+accion_efecto_planta(eucalipto, expectorante).
+accion_efecto_planta(eucalipto, antiseptico).
+modo_tratamiento(eucalipto, 'inhalar vapor 2 veces al día').
+precaucion_planta(eucalipto, 'no ingerir aceite esencial puro').
+
+% Página 87. Fenogreco
+nombre_cientifico(fenogreco, 'Trigonella foenum-graecum').
+continente_origen(fenogreco, 'Asia').
+pais_origen(fenogreco, 'India').
+modo_preparacion(fenogreco, 'cocimiento').
+enfermedad(diabetes).
+enfermedad(colesterol).
+sintoma_enfermedad(diabetes, 'sed excesiva').
+sintoma_enfermedad(colesterol, 'dolor en el pecho').
+trata_enfermedad(fenogreco, diabetes).
+trata_enfermedad(fenogreco, colesterol).
+accion_efecto_planta(fenogreco, hipoglucemiante).
+accion_efecto_planta(fenogreco, hipolipemiante).
+modo_tratamiento(fenogreco, 'una taza en ayunas').
+precaucion_planta(fenogreco, 'no usar en embarazo').
+
+% Página 88. Genciana
+nombre_cientifico(genciana, 'Gentiana lutea').
+continente_origen(genciana, 'Europa').
+pais_origen(genciana, 'Francia').
+modo_preparacion(genciana, 'maceracion').
+enfermedad(anemia).
+enfermedad(indigestion).
+sintoma_enfermedad(anemia, 'fatiga').
+sintoma_enfermedad(indigestion, 'hinchazón').
+trata_enfermedad(genciana, anemia).
+trata_enfermedad(genciana, indigestion).
+accion_efecto_planta(genciana, estimulante).
+accion_efecto_planta(genciana, tonico).
+modo_tratamiento(genciana, 'media taza antes de las comidas').
+precaucion_planta(genciana, 'evitar en úlceras gástricas').
+
+% Página 89. Geranio
+nombre_cientifico(geranio, 'Pelargonium graveolens').
+continente_origen(geranio, 'Africa').
+pais_origen(geranio, 'Sudafrica').
+modo_preparacion(geranio, 'infusion').
+enfermedad(estrés).
+enfermedad(insomnio).
+sintoma_enfermedad(estrés, 'tensión muscular').
+sintoma_enfermedad(insomnio, 'dificultad para dormir').
+trata_enfermedad(geranio, estrés).
+trata_enfermedad(geranio, insomnio).
+accion_efecto_planta(geranio, relajante).
+accion_efecto_planta(geranio, ansiolítico).
+modo_tratamiento(geranio, 'una taza antes de dormir').
+precaucion_planta(geranio, 'posible irritación cutánea').
+
+
 % Pagina 95 guaco
 nombre_cientifico(guaco, aristolochia_odoratissima).
 modo_preparacion(guaco, infusion_cada_3_horas_o_cataplasma).
