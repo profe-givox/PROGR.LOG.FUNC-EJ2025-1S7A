@@ -20,6 +20,58 @@ precaucion_planta(abrojo, embarazo).
 
 % Pagina 38.  acanto
 
+% Pagina 57. berro
+nombre_cientifico(berro, 'Nasturtium officinale').
+contienente_origen(berro, europa).
+pais_origen(berro, europa_central).
+modo_preparacion(berro, infusión).
+enfermedad(bronquitis).
+sintoma_enfermedad(bronquitis, tos).
+trata_enfermedad(berro, bronquitis).
+accion_efecto_planta(berro, expectorante).
+accion_efecto_planta(berro, depurativa).
+modo_tratamiento(berro, tomar_te_dos_veces_dia).
+precaucion_planta(berro, evitar_dosis_altas_puede_ser_irritante).
+
+% Pagina 58. boldo
+nombre_cientifico(boldo, 'Peumus boldus').
+contienente_origen(boldo, america).
+pais_origen(boldo, chile).
+modo_preparacion(boldo, infusión).
+enfermedad(problemas_hepaticos).
+sintoma_enfermedad(problemas_hepaticos, dolor_abdominal).
+trata_enfermedad(boldo, problemas_hepaticos).
+accion_efecto_planta(boldo, hepatoprotectora).
+accion_efecto_planta(boldo, colagoga).
+modo_tratamiento(boldo, tomar_te_despues_comidas).
+precaucion_planta(boldo, evitar_uso_prolongado_embarazo).
+
+% Pagina 59. borraja
+nombre_cientifico(borraja, 'Borago officinalis').
+contienente_origen(borraja, europa).
+pais_origen(borraja, mediterraneo).
+modo_preparacion(borraja, infusión).
+enfermedad(fiebre).
+sintoma_enfermedad(fiebre, temperatura_elevada).
+trata_enfermedad(borraja, fiebre).
+accion_efecto_planta(borraja, sudorifica).
+accion_efecto_planta(borraja, antiinflamatoria).
+modo_tratamiento(borraja, tomar_te_dos_tres_veces_dia).
+precaucion_planta(borraja, evitar_uso_prolongado_alcaloides_toxicos).
+
+% Pagina 60. bugambilia
+nombre_cientifico(bugambilia, 'Bougainvillea glabra').
+contienente_origen(bugambilia, america).
+pais_origen(bugambilia, brasil).
+modo_preparacion(bugambilia, cocimiento).
+enfermedad(tos).
+sintoma_enfermedad(tos, irritacion_garganta).
+trata_enfermedad(bugambilia, tos).
+accion_efecto_planta(bugambilia, expectorante).
+accion_efecto_planta(bugambilia, antitusiva).
+modo_tratamiento(bugambilia, tomar_te_tres_veces_dia).
+precaucion_planta(bugambilia, evitar_en_embarazo_dosis_altas).
+
 % Pagina 61.  brionia
 nombre_cientifico(brionia, 'Bryonia alba').
 contienente_origen(brionia, europa).
