@@ -20,6 +20,58 @@ precaucion_planta(abrojo, embarazo).
 
 % Pagina 38.  acanto
 
+% Pagina 57. berro
+nombre_cientifico(berro, 'Nasturtium officinale').
+contienente_origen(berro, europa).
+pais_origen(berro, europa_central).
+modo_preparacion(berro, infusión).
+enfermedad(bronquitis).
+sintoma_enfermedad(bronquitis, tos).
+trata_enfermedad(berro, bronquitis).
+accion_efecto_planta(berro, expectorante).
+accion_efecto_planta(berro, depurativa).
+modo_tratamiento(berro, tomar_te_dos_veces_dia).
+precaucion_planta(berro, evitar_dosis_altas_puede_ser_irritante).
+
+% Pagina 58. boldo
+nombre_cientifico(boldo, 'Peumus boldus').
+contienente_origen(boldo, america).
+pais_origen(boldo, chile).
+modo_preparacion(boldo, infusión).
+enfermedad(problemas_hepaticos).
+sintoma_enfermedad(problemas_hepaticos, dolor_abdominal).
+trata_enfermedad(boldo, problemas_hepaticos).
+accion_efecto_planta(boldo, hepatoprotectora).
+accion_efecto_planta(boldo, colagoga).
+modo_tratamiento(boldo, tomar_te_despues_comidas).
+precaucion_planta(boldo, evitar_uso_prolongado_embarazo).
+
+% Pagina 59. borraja
+nombre_cientifico(borraja, 'Borago officinalis').
+contienente_origen(borraja, europa).
+pais_origen(borraja, mediterraneo).
+modo_preparacion(borraja, infusión).
+enfermedad(fiebre).
+sintoma_enfermedad(fiebre, temperatura_elevada).
+trata_enfermedad(borraja, fiebre).
+accion_efecto_planta(borraja, sudorifica).
+accion_efecto_planta(borraja, antiinflamatoria).
+modo_tratamiento(borraja, tomar_te_dos_tres_veces_dia).
+precaucion_planta(borraja, evitar_uso_prolongado_alcaloides_toxicos).
+
+% Pagina 60. bugambilia
+nombre_cientifico(bugambilia, 'Bougainvillea glabra').
+contienente_origen(bugambilia, america).
+pais_origen(bugambilia, brasil).
+modo_preparacion(bugambilia, cocimiento).
+enfermedad(tos).
+sintoma_enfermedad(tos, irritacion_garganta).
+trata_enfermedad(bugambilia, tos).
+accion_efecto_planta(bugambilia, expectorante).
+accion_efecto_planta(bugambilia, antitusiva).
+modo_tratamiento(bugambilia, tomar_te_tres_veces_dia).
+precaucion_planta(bugambilia, evitar_en_embarazo_dosis_altas).
+
 % Pagina 61.  brionia
 nombre_cientifico(brionia, 'Bryonia alba').
 contienente_origen(brionia, europa).
@@ -457,6 +509,137 @@ accion_efecto_planta(romero, estimulante).
 accion_efecto_planta(romero, digestivo).
 modo_tratamiento(romero, una_taza_manana).
 precaucion_planta(romero, embarazo).
+=======
+% Pagina 120 Nopal
+nombre_cientifico(nopal, opuntia_tuna).
+continente_origen(nopal, asia).
+pais_origen(nopal, japon).
+
+modo_preparacion(nopal, pencas).
+
+enfermedad(nopal, diabetes).
+trata_enfermedad(nopal, diabetes).
+
+enfermedad(nopal, inflamacion_vejiga).
+sintoma_enfermedad(inflamacion_vejiga, hinchazon).
+trata_enfermedad(nopal, inflamacion_vejiga).
+
+enfermedad(nopal, heridas).
+trata_enfermedad(nopal, heridas).
+
+enfermedad(nopal, hinchazones).
+trata_enfermedad(nopal, hinchazones).
+
+accio_efecta_planta(nopal, laxante).
+accio_efecta_planta(nopal, vermifugo).
+
+modo_tratamiento(nopal, cataplasma).
+modo_tratamiento(nopal, consumo_directo).
+
+% Pagina 121 Nogal
+nombre_cientifico(nogal, juglans_regia).
+continente_origen(nogal, europa).
+pais_origen(nogal, iran).
+modo_preparacion(nogal, hojas_y_corteza_en_te_o_infusion).
+
+enfermedad(nogal, anemia).
+enfermedad(nogal, herpes).
+
+sintoma_enfermedad(anemia, fatiga).
+sintoma_enfermedad(herpes, ampollas_cutaneas).
+
+trata_enfermedad(nogal, anemia).
+trata_enfermedad(nogal, escrofulosis).
+trata_enfermedad(nogal, herpes).
+trata_enfermedad(nogal, reumatismo).
+
+accio_efecta_planta(nogal, tonico).
+accio_efecta_planta(nogal, antireumatico).
+accio_efecta_planta(nogal, nutritivo).
+
+modo_tratamiento(nogal, te).
+modo_tratamiento(nogal, infusion).
+modo_tratamiento(nogal, consumo_directo).
+
+% Pagina 122 Nuez vomica
+
+nombre_cientifico(nuez_vomica, strychnos_nux_vomica).
+continente_origen(nuez_vomica, oceania).
+utilizacion_historica(nuez_vomica, emetica).
+utilizacion_historica(nuez_vomica, febrifuga).
+
+alcaloide(nuez_vomica, estricnina).
+alcaloide(nuez_vomica, brucina).
+
+enfermedad(nuez_vomica, fiebres_malignas).
+trata_enfermedad(nuez_vomica, fiebres_malignas).
+
+enfermedad(nuez_vomica, bronquitis).
+trata_enfermedad(nuez_vomica, bronquitis).
+
+enfermedad(nuez_vomica, reumas).
+trata_enfermedad(nuez_vomica, reumas).
+
+enfermedad(nuez_vomica, lombrices_intestinales).
+trata_enfermedad(nuez_vomica, lombrices_intestinales).
+
+enfermedad(nuez_vomica, tos_ferina).
+trata_enfermedad(nuez_vomica, tos_ferina).
+
+modo_preparacion(nuez_vomica, te_espanol).
+modo_tratamiento(nuez_vomica, te_espanol).
+modo_tratamiento(nuez_vomica, hojas_te).
+
+% Pagina 123 Ocote
+nombre_cientifico(ocote, pinus_teocote).
+continente_origen(ocote, america).
+pais_origen(ocote, mexico).      
+
+enfermedad(ocote, problemas_respiratorios).
+trata_enfermedad(ocote, problemas_respiratorios).
+
+enfermedad(ocote, dolor_muscular).
+trata_enfermedad(ocote, dolor_muscular).
+
+modo_preparacion(ocote, resina_mezclada).
+modo_tratamiento(ocote, cataplasma).  
+
+% Pagina 124 Ortiga
+nombre_cientifico(ortiga, urtica_urens).
+continente_origen(ortiga, europa).
+pais_origen(ortiga, 'regiones_templadas').
+
+modo_preparacion(ortiga, hojas_frescas_o_secas).
+modo_preparacion(ortiga, infusion).
+modo_preparacion(ortiga, cataplasma).
+
+enfermedad(ortiga, anemia).
+trata_enfermedad(ortiga, anemia).
+
+enfermedad(ortiga, artritis).
+trata_enfermedad(ortiga, artritis).
+
+enfermedad(ortiga, reumatismo).
+trata_enfermedad(ortiga, reumatismo).
+
+enfermedad(ortiga, problemas_cutaneos).
+trata_enfermedad(ortiga, problemas_cutaneos).
+
+enfermedad(ortiga, caida_cabello).
+trata_enfermedad(ortiga, caida_cabello).
+
+sintoma_enfermedad(anemia, debilidad).
+sintoma_enfermedad(artritis, dolor_articulaciones).
+sintoma_enfermedad(problemas_cutaneos, irritacion_piel).
+
+accio_efecta_planta(ortiga, diuretico).
+accio_efecta_planta(ortiga, depurativo).
+accio_efecta_planta(ortiga, antiinflamatorio).
+
+modo_tratamiento(ortiga, te).
+modo_tratamiento(ortiga, infusion).
+modo_tratamiento(ortiga, cataplasma).
+modo_tratamiento(ortiga, consumo_directo).
 
 % Pagina 150 tila
 nombre_cientifico(tila, tilia_mexicana).
