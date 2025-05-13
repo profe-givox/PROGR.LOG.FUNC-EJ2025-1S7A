@@ -123,6 +123,91 @@ accion_efecto_planta(cardo_santo, oftalmica).
 modo_tratamiento(cardo_santo, aplicar_gotas_ojos).
 precaucion_planta(cardo_santo, contacto_prolongado_ojos).
 
+% Pagina 65  cempasuchil
+nombre_cientifico(cempasuchil, 'Tagetes erecta').
+contienente_origen(cempasuchil, america).
+pais_origen(cempasuchil, mexíco).
+modo_preparacion(cempasuchil, te).
+enfermedad(parasitos_intestinales).
+enfermedad(tumores).
+sintoma_enfermedad(parasitos_intestinales, dolor_estomago).
+trata_enfermedad(cempasuchil, parasitos_intestinales).
+accion_efecto_planta(cempasuchil, antiparasitario).
+accion_efecto_planta(cempasuchil, tonico).
+modo_tratamiento(cempasuchil, tomar_te_en_caso_de_parasitos).
+precaucion_planta(cempasuchil, cocimiento_3_veces_al_dia).
+
+% Página 66 chaparro amargoso
+nombre_cientifico(chaparro_amargoso, 'Castela americana').
+continente_origen(chaparro_amargoso, america).
+pais_origen(chaparro_amargoso, mexico).
+modo_preparacion(chaparro_amargoso, te).
+enfermedad(disenteria_amebiana).
+enfermedad(diarrea).
+enfermedad(flujo).
+enfermedad(hemorragias_internas).
+sintoma_enfermedad(disenteria_amebiana, diarrea).
+sintoma_enfermedad(disenteria_amebiana, dolor_estomago).
+trata_enfermedad(chaparro_amargoso, disenteria_amebiana).
+trata_enfermedad(chaparro_amargoso, diarrea).
+trata_enfermedad(chaparro_amargoso, flujo).
+trata_enfermedad(chaparro_amargoso, hemorragias_internas).
+accion_efecto_planta(chaparro_amargoso, antiseptico).
+modo_tratamiento(chaparro_amargoso, tomar_te_hojas_y_corteza_2_veces_dia).
+precaucion_planta(chaparro_amargoso, 'En disentería crónica usar como lavativa').
+
+% Página 67 chicalote
+nombre_cientifico(chicalote, 'Argemone aecholtzia').
+continente_origen(chicalote, america).
+pais_origen(chicalote, mexico).
+modo_preparacion(chicalote, cocimiento).
+enfermedad(tos).
+enfermedad(asma).
+enfermedad(tosferina).
+enfermedad(epilepsia).
+enfermedad(artritis).
+enfermedad(insomnio).
+enfermedad(ansiedad).
+enfermedad(colicos_hepaticos).
+enfermedad(colicos_renales).
+enfermedad(colicos_intestinales).
+enfermedad(carnosidad_ojos).
+sintoma_enfermedad(insomnio, nerviosismo).
+sintoma_enfermedad(ansiedad, desesperacion).
+trata_enfermedad(chicalote, tos).
+trata_enfermedad(chicalote, asma).
+trata_enfermedad(chicalote, tosferina).
+trata_enfermedad(chicalote, epilepsia).
+trata_enfermedad(chicalote, artritis).
+trata_enfermedad(chicalote, insomnio).
+trata_enfermedad(chicalote, ansiedad).
+trata_enfermedad(chicalote, colicos_hepaticos).
+trata_enfermedad(chicalote, colicos_renales).
+trata_enfermedad(chicalote, colicos_intestinales).
+accion_efecto_planta(chicalote, antiespasmodico).
+accion_efecto_planta(chicalote, hipnotico).
+accion_efecto_planta(chicalote, sedante).
+modo_tratamiento(chicalote, cocimiento_2_veces_al_dia).
+modo_tratamiento(chicalote, aplicar_leche_directamente_en_ojos_en_casos_de_carnosidad).
+precaucion_planta(chicalote, 'Es un poco tóxica, usar con cuidado').
+
+% Página 68 chile 
+nombre_cientifico(chile, 'Capsicum annuum').
+continente_origen(chile, america).
+pais_origen(chile, mexico).
+modo_preparacion(chile, compresas_calientes).
+enfermedad(asma).
+enfermedad(reumatismo).
+sintoma_enfermedad(asma, dificultad_respiratoria).
+sintoma_enfermedad(reumatismo, dolor_articular).
+trata_enfermedad(chile, asma).
+trata_enfermedad(chile, reumatismo).
+accion_efecto_planta(chile, antiinflamatorio).
+accion_efecto_planta(chile, rubefaciente).
+modo_tratamiento(chile, aplicar_hojas_en_pecho_para_el_asma).
+modo_tratamiento(chile, aplicar_paños_calientes_con_cocimiento_para_reumatismo).
+precaucion_planta(chile, 'No debe darse a niños; puede irritar mucosas, diarrear, inflamar hígado y hemorroides').
+
 % Pagina 69 chichigua
 nombre_cientifico(chichigua, solanum_mammosum).
 continente_origen(chichigua, america).
