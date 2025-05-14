@@ -762,6 +762,75 @@ accion_efecto_planta(geranio, ansiolítico).
 modo_tratamiento(geranio, 'una taza antes de dormir').
 precaucion_planta(geranio, 'posible irritación cutánea').
 
+% 90 Girasol
+nombre_cientifico(girasol, 'Helianthus annuus').
+continente_origen(girasol, 'América').
+pais_origen(girasol, 'México').
+modo_preparacion(girasol, 'infusion').
+enfermedad(fiebre).
+trata_enfermedad('presion alta').
+trata_enfermedad('fiebre').
+accion_efecto_planta(girasol, 'diurético').
+accion_efecto_planta(girasol, 'antiinflamatorio').
+modo_tratamiento(girasol, 'Té diario o compresas').
+precaucion_planta(girasol, exceso).
+
+% 91 Gingseng
+nombre_cientifico(gingseng, 'Panax ginseng').
+continente_origen(gingseng, 'Asia').
+pais_origen(gingseng,'China').
+modo_preparacion(gingseng, infusion).
+enfermedad('Fatiga').
+sintoma_enfermedad('Fatiga','cansancio').
+sintoma_enfermedad('Fatiga','debilidad').
+trata_enfermedad(gingseng,'Diabetes').
+accion_efecto_planta(gingseng,'estimulante').
+accion_efecto_planta(gingseng,'adaptógeno').
+modo_tratamiento(gingseng,infusion).
+precaucion_planta(gingseng,hipertension).
+precaucion_planta(gingseng,embarazo).
+
+% 92 gordolobo
+nombre_cientifico(gordolobo, 'Verbascum thapsus').
+continente_origen(gordolobo,'Europa').
+pais_origen(gordolobo, 'Alemania').
+modo_preparacion(gordolobo,'infusion').
+enfermedad(tos).
+enfermedad(bronquitis).
+sintoma_enfermedad(bronquitis,'flemas').
+sintoma_enfermedad(bronquitis,'congestion').
+trata_enfermedad(gordolobo, 'bronquitis').
+trata_enfermedad(gordolobo, 'tos').
+accion_efecto_planta(gordolobo, expectorante).
+accion_efecto_planta(gordolobo, antiinflamatorio).
+modo_tratamiento(gordolobo, 'Té 2-3 veces al día').
+precaucion_planta(gordolobo, infusion).
+
+% 93 grama
+nombre_cientifico(grama, 'Cynodon dactylon').
+continente_origen(grama, 'África').
+pais_origen(grama,'Egipto').
+modo_preparacion(grama,'coccion').
+enfermedad('Infecciones urinarias').
+sintoma_enfermedad('Infecciones urinarias','Ardor al oriniar').
+trata_enfermedad(grama,'cistiis').
+accion_efecto_planta(grama,'diurético').
+accion_efecto_planta(grama,'depurativo').
+modo_tratamiento(grama, 'Té o jarabe').
+precaucion_planta(grama, embarazo).
+
+% 94 granado
+nombre_cientifico(granado, 'Punica granatum').
+continente_origen(granado, 'Asia').
+pais_origen(granado, 'India').
+modo_preparacion(grama, infusion).
+enfermedad('Parásitos intestinales').
+sintoma_enfermedad('Parásitos intestinales', 'Dolor abdominal').
+trata_enfermedad(granado, 'Disentería').
+accion_efecto_planta(granado, 'astringente').
+accion_efecto_planta(granado, 'antiparasitario').
+modo_tratamiento(granado,'Té o enjuague bucal').
+precaucion_planta(granado, estreñimiento).
 
 % Pagina 95 guaco
 nombre_cientifico(guaco, aristolochia_odoratissima).
