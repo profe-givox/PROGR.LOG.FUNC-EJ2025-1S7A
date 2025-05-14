@@ -20,6 +20,84 @@ precaucion_planta(abrojo, embarazo).
 
 % Pagina 38.  acanto
 
+%-- ACONITO PAG.41 --
+planta(aconito).
+nombre_cientifico(aconito, 'Aconitum napellus').
+cura(aconito, neuralgia).
+cura(aconito, fiebre).
+cura(aconito, reumatismo).
+tipo_enfermedad(neuralgia, nerviosa).
+tipo_enfermedad(fiebre, general).
+tipo_enfermedad(reumatismo, musculoesqueletica).
+uso_externo(aconito).
+parte_util(aconito, raiz).
+forma_uso(aconito, tintura).
+compatible(aconito, adormidera).
+origen(aconito, europa).
+precaucion(aconito, toxicidad_alta).
+
+%-- ADORMIDERA PAG.42 --
+planta(adormidera).
+nombre_cientifico(adormidera, 'Papaver somniferum').
+cura(adormidera, insomnio).
+cura(adormidera, dolor).
+cura(adormidera, ansiedad).
+tipo_enfermedad(insomnio, nerviosa).
+tipo_enfermedad(dolor, general).
+tipo_enfermedad(ansiedad, mental).
+uso_interno(adormidera).
+parte_util(adormidera, cápsula).
+forma_uso(adormidera, infusión).
+forma_uso(adormidera, extracto).
+compatible(adormidera, aconito).
+origen(adormidera, asia).
+precaucion(adormidera, dependencia).
+
+%-- AGUACATE PAG.43 --
+planta(aguacate).
+nombre_cientifico(aguacate, 'Persea americana').
+cura(aguacate, estreñimiento).
+cura(aguacate, problemas_digestivos).
+cura(aguacate, tos).
+tipo_enfermedad(estreñimiento, digestiva).
+tipo_enfermedad(problemas_digestivos, digestiva).
+tipo_enfermedad(tos, respiratoria).
+uso_interno(aguacate).
+parte_util(aguacate, hoja).
+forma_uso(aguacate, infusión).
+forma_uso(aguacate, cocimiento).
+compatible(aguacate, ajenjo).
+origen(aguacate, mexico).
+
+%-- AHUEHUETE PAG.44 --
+planta(ahuehuete).
+nombre_cientifico(ahuehuete, 'Taxodium mucronatum').
+cura(ahuehuete, enfermedades_respiratorias).
+cura(ahuehuete, infecciones_piel).
+tipo_enfermedad(enfermedades_respiratorias, respiratoria).
+tipo_enfermedad(infecciones_piel, cutanea).
+uso_externo(ahuehuete).
+parte_util(ahuehuete, corteza).
+forma_uso(ahuehuete, decocción).
+origen(ahuehuete, mexico).
+
+%-- AJENJO PAG.45 --
+planta(ajenjo).
+nombre_cientifico(ajenjo, 'Artemisia absinthium').
+cura(ajenjo, parásitos_intestinales).
+cura(ajenjo, problemas_digestivos).
+cura(ajenjo, debilidad_general).
+tipo_enfermedad(parásitos_intestinales, digestiva).
+tipo_enfermedad(problemas_digestivos, digestiva).
+tipo_enfermedad(debilidad_general, general).
+uso_interno(ajenjo).
+parte_util(ajenjo, hojas).
+forma_uso(ajenjo, infusión).
+forma_uso(ajenjo, macerado).
+compatible(aguacate, ajenjo).
+origen(ajenjo, europa).
+precaucion(ajenjo, embarazo).
+
 % Pagina 49. alcanfor
 nombre_cientifico(alcanfor,laurus_camphora).
 contienente_origen(alcanfor, asia).
@@ -757,6 +835,153 @@ accion_efecto_planta(helenio, diuretico).
 modo_tratamiento(helenio, infusion_diaria).
 precaucion_planta(helenio, dosis_excesiva).
 
+
+% Pagina 105 --- JENGIBRE ---
+nombre_cientifico(jengibre, 'Zingiber officinale').
+continente_origen(jengibre, asia).
+pais_origen(jengibre, desconocido).
+parte_util(jengibre, raiz).
+modo_preparacion(jengibre, tintura).
+modo_preparacion(jengibre, pan).
+modo_preparacion(jengibre, remedio_efervescente).
+modo_tratamiento(jengibre, uso_interno).
+
+enfermedad(cruda).
+enfermedad(agotamiento_mental).
+
+sintoma_enfermedad(cruda, malestar_general).
+sintoma_enfermedad(agotamiento_mental, fatiga_cognitiva).
+
+trata_enfermedad(jengibre, cruda).
+trata_enfermedad(jengibre, agotamiento_mental).
+
+accion_efecto_planta(jengibre, estimulante).
+accion_efecto_planta(jengibre, digestiva).
+
+precaucion_planta(jengibre, hipertension).
+
+
+% Pagina 106 --- LINAZA ---
+nombre_cientifico(linaza, 'Linum usitatissimum').
+continente_origen(linaza, desconocido).
+pais_origen(linaza, desconocido).
+parte_util(linaza, semillas).
+modo_preparacion(linaza, infusion).
+modo_preparacion(linaza, cataplasma).
+modo_tratamiento(linaza, uso_externo).
+modo_tratamiento(linaza, uso_interno).
+
+enfermedad(estrenimiento).
+enfermedad(colitis).
+enfermedad(males_estomacales).
+enfermedad(bronquitis).
+enfermedad(hemorroides).
+enfermedad(heridas).
+enfermedad(abscesos).
+
+sintoma_enfermedad(estrenimiento, dificultad_evacuacion).
+sintoma_enfermedad(colitis, inflamacion_intestinal).
+sintoma_enfermedad(bronquitis, tos_congestion).
+sintoma_enfermedad(heridas, sangrado).
+sintoma_enfermedad(abscesos, hinchazon).
+
+trata_enfermedad(linaza, estrenimiento).
+trata_enfermedad(linaza, colitis).
+trata_enfermedad(linaza, males_estomacales).
+trata_enfermedad(linaza, bronquitis).
+trata_enfermedad(linaza, hemorroides).
+trata_enfermedad(linaza, heridas).
+trata_enfermedad(linaza, abscesos).
+
+accion_efecto_planta(linaza, emoliente).
+accion_efecto_planta(linaza, laxante).
+
+precaucion_planta(linaza, embarazo).
+
+
+% Pagina 107 --- LLANTEN ---
+nombre_cientifico(llanten, 'Plantago major').
+continente_origen(llanten, desconocido).
+pais_origen(llanten, desconocido).
+parte_util(llanten, hojas).
+modo_preparacion(llanten, infusion).
+modo_preparacion(llanten, leche_hervida).
+modo_tratamiento(llanten, uso_externo).
+modo_tratamiento(llanten, uso_interno).
+
+enfermedad(conjuntivitis).
+enfermedad(infeccion_ojos).
+enfermedad(ulceras_boca).
+enfermedad(pequenas_infecciones).
+enfermedad(disenteria).
+enfermedad(enterocolitis).
+
+sintoma_enfermedad(conjuntivitis, ojos_rojos).
+sintoma_enfermedad(infeccion_ojos, secrecion).
+sintoma_enfermedad(ulceras_boca, lesiones_bucales).
+sintoma_enfermedad(disenteria, diarrea_con_sangre).
+sintoma_enfermedad(enterocolitis, dolor_abdominal).
+
+trata_enfermedad(llanten, conjuntivitis).
+trata_enfermedad(llanten, infeccion_ojos).
+trata_enfermedad(llanten, ulceras_boca).
+trata_enfermedad(llanten, pequenas_infecciones).
+trata_enfermedad(llanten, disenteria).
+trata_enfermedad(llanten, enterocolitis).
+
+accion_efecto_planta(llanten, antiinflamatoria).
+accion_efecto_planta(llanten, astringente).
+
+
+% Pagina 108 --- MADRESELVA ---
+nombre_cientifico(madreselva, 'Lonicera').
+continente_origen(madreselva, desconocido).
+pais_origen(madreselva, desconocido).
+parte_util(madreselva, flores).
+modo_preparacion(madreselva, infusion).
+modo_tratamiento(madreselva, uso_interno).
+
+enfermedad(gripa).
+enfermedad(tos).
+enfermedad(infecciones_garganta).
+
+sintoma_enfermedad(gripa, fiebre_y_congestion).
+sintoma_enfermedad(tos, irritacion_garganta).
+sintoma_enfermedad(infecciones_garganta, dolor_garganta).
+
+trata_enfermedad(madreselva, gripa).
+trata_enfermedad(madreselva, tos).
+trata_enfermedad(madreselva, infecciones_garganta).
+
+accion_efecto_planta(madreselva, expectorante).
+accion_efecto_planta(madreselva, antibacteriana).
+
+
+% Pagina 109 --- MAGUEY ---
+nombre_cientifico(maguey, 'Agave').
+continente_origen(maguey, america).
+pais_origen(maguey, mexico).
+parte_util(maguey, hojas).
+modo_preparacion(maguey, cataplasma).
+modo_tratamiento(maguey, uso_externo).
+
+enfermedad(llagas).
+enfermedad(infecciones_piel).
+enfermedad(fiebre).
+
+sintoma_enfermedad(llagas, heridas_abiertas).
+sintoma_enfermedad(infecciones_piel, enrojecimiento).
+sintoma_enfermedad(fiebre, temperatura_alta).
+
+trata_enfermedad(maguey, llagas).
+trata_enfermedad(maguey, infecciones_piel).
+trata_enfermedad(maguey, fiebre).
+
+accion_efecto_planta(maguey, cicatrizante).
+accion_efecto_planta(maguey, antimicrobiana).
+accion_efecto_planta(maguey, antipiretica).
+
+
 % Pagina 100. Hierba del pollo
 nombre_cientifico(hierba_del_pollo, tradescantia_zebrina).
 contienente_origen(hierba_del_pollo, america).
@@ -1028,6 +1253,7 @@ precaucion_planta(manzanilla, evitar_alergicos_asteraceas).
 precaucion_planta(manzanilla, no_uso_ocular_sin_filtrar).
 precaucion_planta(manzanilla, moderar_en_embarazo).
 precaucion_planta(manzanilla, no_hervir_flores).  
+
 
 % Pagina 115.  marrubio
 nombre_cientifico(marrubio, 'Marrubium vulgare').
@@ -1302,6 +1528,79 @@ accion_efecto_planta(sanguinaria, estimulante).
 accion_efecto_planta(sanguinaria, antiseptica).
 modo_tratamiento(sanguinaria, beber_o_hacer_gargaras).
 precaucion_planta(sanguinaria, toxicidad_alta_si_se_abusa).
+
+
+% Pagina 145, Sensitiva 
+nombre_cientifico(sensativa, mimosa_pudica).
+contienente_origen(sensativa, america).
+pais_origen(sensativa, centroamerica).
+modo_preparacion(sensativa, infusion_hojas).
+enfermedad(ansiedad).
+enfermedad(insomnio).
+trata_enfermedad(sensativa, ansiedad).
+trata_enfermedad(sensativa, insomnio).
+accion_efecto_planta(sensativa, sedante).
+accion_efecto_planta(sensativa, relajante).
+modo_tratamiento(sensativa, noche).
+precaucion_planta(sensativa, combinacion_sedantes).
+
+% Pagina 146, Simonillo 
+nombre_cientifico(simonillo, tagetes_lucida).
+contienente_origen(simonillo, america).
+pais_origen(simonillo, mexico).
+modo_preparacion(simonillo, te_flores).
+enfermedad(problemas_estomacales).
+enfermedad(parasitos_intestinales).
+trata_enfermedad(simonillo, problemas_estomacales).
+trata_enfermedad(simonillo, parasitos_intestinales).
+accion_efecto_planta(simonillo, digestivo).
+accion_efecto_planta(simonillo, antiparasitario).
+modo_tratamiento(simonillo, en_ayunas).
+precaucion_planta(simonillo, dosis_altas).
+
+% Pagina 147, Tamarindo 
+nombre_cientifico(tamarindo, tamarindus_indica).
+contienente_origen(tamarindo, africa).
+pais_origen(tamarindo, sudan).
+modo_preparacion(tamarindo, infusion_vainas).
+modo_preparacion(tamarindo, pulpa).
+enfermedad(estreñimiento).
+enfermedad(fiebre).
+trata_enfermedad(tamarindo, estreñimiento).
+trata_enfermedad(tamarindo, fiebre).
+accion_efecto_planta(tamarindo, laxante).
+accion_efecto_planta(tamarindo, antipiretico).
+modo_tratamiento(tamarindo, cuando_se_requiera).
+precaucion_planta(tamarindo, diarrea).
+
+% Pagina 148, Tabachín
+nombre_cientifico(tabachin, cesalpinia_pulcherrima).
+contienente_origen(tabachin, america).
+pais_origen(tabachin, mexico).
+modo_preparacion(tabachin, infusion_flores).
+enfermedad(tos).
+enfermedad(bronquitis).
+trata_enfermedad(tabachin, tos).
+trata_enfermedad(tabachin, bronquitis).
+accion_efecto_planta(tabachin, expectorante).
+accion_efecto_planta(tabachin, antitusivo).
+modo_tratamiento(tabachin, tres_veces_dia).
+precaucion_planta(tabachin, embarazo).
+
+% Pagina 149, Taray 
+nombre_cientifico(taray, tamarix_aphylla).
+contienente_origen(taray, asia).
+pais_origen(taray, regiones_aridas).
+modo_preparacion(taray, cocimiento_corteza).
+enfermedad(problemas_renales).
+enfermedad(inflamacion_ojos).
+trata_enfermedad(taray, problemas_renales).
+accion_efecto_planta(taray, diuretico).
+accion_efecto_planta(taray, antiinflamatorio).
+modo_tratamiento(taray, como_agua_de_uso).
+precaucion_planta(taray, dosis_excesivas).
+
+
 
 % Pagina 135 regaliz
 nombre_cientifico(regaliz, glycyrrhiza_glabra).
