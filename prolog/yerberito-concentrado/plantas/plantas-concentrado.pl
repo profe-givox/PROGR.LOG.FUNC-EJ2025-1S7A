@@ -705,6 +705,153 @@ accion_efecto_planta(helenio, diuretico).
 modo_tratamiento(helenio, infusion_diaria).
 precaucion_planta(helenio, dosis_excesiva).
 
+
+% Pagina 105 --- JENGIBRE ---
+nombre_cientifico(jengibre, 'Zingiber officinale').
+continente_origen(jengibre, asia).
+pais_origen(jengibre, desconocido).
+parte_util(jengibre, raiz).
+modo_preparacion(jengibre, tintura).
+modo_preparacion(jengibre, pan).
+modo_preparacion(jengibre, remedio_efervescente).
+modo_tratamiento(jengibre, uso_interno).
+
+enfermedad(cruda).
+enfermedad(agotamiento_mental).
+
+sintoma_enfermedad(cruda, malestar_general).
+sintoma_enfermedad(agotamiento_mental, fatiga_cognitiva).
+
+trata_enfermedad(jengibre, cruda).
+trata_enfermedad(jengibre, agotamiento_mental).
+
+accion_efecto_planta(jengibre, estimulante).
+accion_efecto_planta(jengibre, digestiva).
+
+precaucion_planta(jengibre, hipertension).
+
+
+% Pagina 106 --- LINAZA ---
+nombre_cientifico(linaza, 'Linum usitatissimum').
+continente_origen(linaza, desconocido).
+pais_origen(linaza, desconocido).
+parte_util(linaza, semillas).
+modo_preparacion(linaza, infusion).
+modo_preparacion(linaza, cataplasma).
+modo_tratamiento(linaza, uso_externo).
+modo_tratamiento(linaza, uso_interno).
+
+enfermedad(estrenimiento).
+enfermedad(colitis).
+enfermedad(males_estomacales).
+enfermedad(bronquitis).
+enfermedad(hemorroides).
+enfermedad(heridas).
+enfermedad(abscesos).
+
+sintoma_enfermedad(estrenimiento, dificultad_evacuacion).
+sintoma_enfermedad(colitis, inflamacion_intestinal).
+sintoma_enfermedad(bronquitis, tos_congestion).
+sintoma_enfermedad(heridas, sangrado).
+sintoma_enfermedad(abscesos, hinchazon).
+
+trata_enfermedad(linaza, estrenimiento).
+trata_enfermedad(linaza, colitis).
+trata_enfermedad(linaza, males_estomacales).
+trata_enfermedad(linaza, bronquitis).
+trata_enfermedad(linaza, hemorroides).
+trata_enfermedad(linaza, heridas).
+trata_enfermedad(linaza, abscesos).
+
+accion_efecto_planta(linaza, emoliente).
+accion_efecto_planta(linaza, laxante).
+
+precaucion_planta(linaza, embarazo).
+
+
+% Pagina 107 --- LLANTEN ---
+nombre_cientifico(llanten, 'Plantago major').
+continente_origen(llanten, desconocido).
+pais_origen(llanten, desconocido).
+parte_util(llanten, hojas).
+modo_preparacion(llanten, infusion).
+modo_preparacion(llanten, leche_hervida).
+modo_tratamiento(llanten, uso_externo).
+modo_tratamiento(llanten, uso_interno).
+
+enfermedad(conjuntivitis).
+enfermedad(infeccion_ojos).
+enfermedad(ulceras_boca).
+enfermedad(pequenas_infecciones).
+enfermedad(disenteria).
+enfermedad(enterocolitis).
+
+sintoma_enfermedad(conjuntivitis, ojos_rojos).
+sintoma_enfermedad(infeccion_ojos, secrecion).
+sintoma_enfermedad(ulceras_boca, lesiones_bucales).
+sintoma_enfermedad(disenteria, diarrea_con_sangre).
+sintoma_enfermedad(enterocolitis, dolor_abdominal).
+
+trata_enfermedad(llanten, conjuntivitis).
+trata_enfermedad(llanten, infeccion_ojos).
+trata_enfermedad(llanten, ulceras_boca).
+trata_enfermedad(llanten, pequenas_infecciones).
+trata_enfermedad(llanten, disenteria).
+trata_enfermedad(llanten, enterocolitis).
+
+accion_efecto_planta(llanten, antiinflamatoria).
+accion_efecto_planta(llanten, astringente).
+
+
+% Pagina 108 --- MADRESELVA ---
+nombre_cientifico(madreselva, 'Lonicera').
+continente_origen(madreselva, desconocido).
+pais_origen(madreselva, desconocido).
+parte_util(madreselva, flores).
+modo_preparacion(madreselva, infusion).
+modo_tratamiento(madreselva, uso_interno).
+
+enfermedad(gripa).
+enfermedad(tos).
+enfermedad(infecciones_garganta).
+
+sintoma_enfermedad(gripa, fiebre_y_congestion).
+sintoma_enfermedad(tos, irritacion_garganta).
+sintoma_enfermedad(infecciones_garganta, dolor_garganta).
+
+trata_enfermedad(madreselva, gripa).
+trata_enfermedad(madreselva, tos).
+trata_enfermedad(madreselva, infecciones_garganta).
+
+accion_efecto_planta(madreselva, expectorante).
+accion_efecto_planta(madreselva, antibacteriana).
+
+
+% Pagina 109 --- MAGUEY ---
+nombre_cientifico(maguey, 'Agave').
+continente_origen(maguey, america).
+pais_origen(maguey, mexico).
+parte_util(maguey, hojas).
+modo_preparacion(maguey, cataplasma).
+modo_tratamiento(maguey, uso_externo).
+
+enfermedad(llagas).
+enfermedad(infecciones_piel).
+enfermedad(fiebre).
+
+sintoma_enfermedad(llagas, heridas_abiertas).
+sintoma_enfermedad(infecciones_piel, enrojecimiento).
+sintoma_enfermedad(fiebre, temperatura_alta).
+
+trata_enfermedad(maguey, llagas).
+trata_enfermedad(maguey, infecciones_piel).
+trata_enfermedad(maguey, fiebre).
+
+accion_efecto_planta(maguey, cicatrizante).
+accion_efecto_planta(maguey, antimicrobiana).
+accion_efecto_planta(maguey, antipiretica).
+
+
 % Pagina 100. Hierba del pollo
 nombre_cientifico(hierba_del_pollo, tradescantia_zebrina).
 contienente_origen(hierba_del_pollo, america).
@@ -976,6 +1123,7 @@ precaucion_planta(manzanilla, evitar_alergicos_asteraceas).
 precaucion_planta(manzanilla, no_uso_ocular_sin_filtrar).
 precaucion_planta(manzanilla, moderar_en_embarazo).
 precaucion_planta(manzanilla, no_hervir_flores).  
+
 
 % Pagina 115.  marrubio
 nombre_cientifico(marrubio, 'Marrubium vulgare').
