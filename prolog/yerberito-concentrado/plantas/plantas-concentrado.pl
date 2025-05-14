@@ -796,6 +796,187 @@ precaucion_planta(jazmin_amarillo, problemas_corazon).
 precaucion_planta(jazmin_amarillo, problemas_riñones).
 modo_tratamiento(jazmin_amarillo, tomar_tintura).
 
+% Pagina 110.  maíz
+nombre_cientifico(maiz, 'Zea mays').
+contienente_origen(maiz, america).
+pais_origen(maiz, mexico).
+modo_preparacion(maiz, infusion).
+modo_preparacion(maiz, cataplasma).
+modo_preparacion(maiz, consumo_directo).
+enfermedad(problemas_renales).
+enfermedad(hipertension).
+enfermedad(problemas_digestivos).
+enfermedad(inflamacion).
+enfermedad(diabetes).
+sintoma_enfermedad(problemas_renales, dolor_espalda_baja).
+sintoma_enfermedad(hipertension, presion_alta).
+sintoma_enfermedad(problemas_digestivos, dolor_estomago).
+sintoma_enfermedad(inflamacion, hinchazon).
+sintoma_enfermedad(diabetes, niveles_azucar_altos).
+trata_enfermedad(maiz, problemas_renales).
+trata_enfermedad(maiz, hipertension).
+trata_enfermedad(maiz, problemas_digestivos).
+trata_enfermedad(maiz, inflamacion).
+trata_enfermedad(maiz, diabetes).
+accion_efecto_planta(maiz, diuretico).
+accion_efecto_planta(maiz, antiinflamatorio).
+accion_efecto_planta(maiz, regulador_glucemia).
+modo_tratamiento(maiz, tomar_te_maiz_tres_veces_dia).
+modo_tratamiento(maiz, aplicar_cataplasma_maiz).
+modo_tratamiento(maiz, consumir_maiz_hervido).
+precaucion_planta(maiz, moderar_consumo_en_diabeticos).
+precaucion_planta(maiz, evitar_exceso_si_toma_diureticos).
+
+
+% Pagina 111. Malva
+nombre_cientifico(malva, 'Malva sylvestris').
+continente_origen(malva, europa).
+pais_origen(malva, región_mediterránea). 
+modo_preparacion(malva, infusion).
+modo_preparacion(malva, cataplasma).
+modo_preparacion(malva, gargaras).
+enfermedad(irritacion_garganta).
+enfermedad(estrenimiento).
+enfermedad(problemas_piel).
+enfermedad(ulceras).
+enfermedad(inflamacion_bucal).
+sintoma_enfermedad(irritacion_garganta, dolor_al_tragar).
+sintoma_enfermedad(estrenimiento, dificultad_defecar).
+sintoma_enfermedad(problemas_piel, erupciones_cutaneas).
+sintoma_enfermedad(ulceras, llagas_estomacales).
+sintoma_enfermedad(inflamacion_bucal, encias_hinchadas).
+trata_enfermedad(malva, irritacion_garganta).
+trata_enfermedad(malva, estrenimiento).
+trata_enfermedad(malva, problemas_piel).
+trata_enfermedad(malva, ulceras).
+trata_enfermedad(malva, inflamacion_bucal).
+accion_efecto_planta(malva, emoliente).
+accion_efecto_planta(malva, antiinflamatorio).
+accion_efecto_planta(malva, laxante_suave).
+accion_efecto_planta(malva, cicatrizante).
+modo_tratamiento(malva, tomar_infusion_tres_veces_dia).
+modo_tratamiento(malva, aplicar_cataplasma_zonas_afectadas).
+modo_tratamiento(malva, hacer_gargaras_dos_veces_dia).
+precaucion_planta(malva, no_consumir_en_embarazo).
+precaucion_planta(malva, moderar_uso_en_ninos).
+precaucion_planta(malva, evitar_si_alergia_malvaceas).
+
+
+% Pagina 112. Malvavisco
+nombre_cientifico(malvavisco, 'Althaea officinalis').
+continente_origen(malvavisco, europa).
+pais_origen(malvavisco, 'Europa Oriental').
+modo_preparacion(malvavisco, infusion_raiz).
+modo_preparacion(malvavisco, jarabe).
+modo_preparacion(malvavisco, cataplasma_hojas).
+enfermedad(bronquitis).
+enfermedad(gastritis).
+enfermedad(eczema).
+enfermedad(faringitis).
+enfermedad(ciatica).
+sintoma_enfermedad(bronquitis, tos_con_flema).
+sintoma_enfermedad(gastritis, acidez_estomacal).
+sintoma_enfermedad(eczema, picor_piel).
+sintoma_enfermedad(faringitis, dolor_garganta).
+sintoma_enfermedad(ciatica, dolor_pierna).
+trata_enfermedad(malvavisco, bronquitis).
+trata_enfermedad(malvavisco, gastritis).
+trata_enfermedad(malvavisco, eczema).
+trata_enfermedad(malvavisco, faringitis).
+trata_enfermedad(malvavisco, ciatica).  
+accion_efecto_planta(malvavisco, demulcente). 
+accion_efecto_planta(malvavisco, antitusivo).
+accion_efecto_planta(malvavisco, antiacido).
+accion_efecto_planta(malvavisco, emoliente_intenso). 
+modo_tratamiento(malvavisco, tomar_jarabe_4_veces_dia).
+modo_tratamiento(malvavisco, infusion_raiz_fria).  
+modo_tratamiento(malvavisco, compresas_raiz_molida).
+
+
+
+% Pagina 113. Mangle
+nombre_cientifico(mangle, 'Rhizophora mangle').
+familia(mangle, 'Rhizophoraceae').
+continente_origen(mangle, america).
+region_origen(mangle, 'zonas_intermareales_tropicales').
+parte_utilizada(mangle, corteza).  
+parte_utilizada(mangle, hojas).
+parte_utilizada(mangle, propágulos).  
+modo_preparacion(mangle, decoccion_corteza).
+modo_preparacion(mangle, polvo_corteza).
+modo_preparacion(mangle, cataplasma_hojas).
+enfermedad(leishmaniasis).  
+enfermedad(diarrea_cronica).
+enfermedad(hemorragias).
+enfermedad(infecciones_cutaneas).
+enfermedad(hepatitis).
+sintoma_enfermedad(leishmaniasis, ulceras_piel).
+sintoma_enfermedad(diarrea_cronica, deshidratacion).
+sintoma_enfermedad(hemorragias, sangrado_excesivo).
+sintoma_enfermedad(infecciones_cutaneas, pus_piel).
+sintoma_enfermedad(hepatitis, ictericia).
+trata_enfermedad(mangle, leishmaniasis).  
+trata_enfermedad(mangle, diarrea_cronica).
+trata_enfermedad(mangle, hemorragias).
+trata_enfermedad(mangle, infecciones_cutaneas).
+trata_enfermedad(mangle, hepatitis).
+accion_efecto_planta(mangle, astringente_intenso).  
+accion_efecto_planta(mangle, antiviral).
+accion_efecto_planta(mangle, hemostatico).  
+accion_efecto_planta(mangle, cicatrizante).
+accion_efecto_planta(mangle, hepatoprotector).
+modo_tratamiento(mangle, decoccion_50g_corteza_1litro).
+modo_tratamiento(mangle, aplicar_polvo_heridas).
+modo_tratamiento(mangle, masticar_propagulos_diarrea). 
+precaucion_planta(mangle, no_uso_prolongado).  
+precaucion_planta(mangle, evitar_en_embarazo).
+precaucion_planta(mangle, maximo_7dias_continuos).
+precaucion_planta(mangle, contraindicado_anemia).  
+
+
+
+% Pagina 114. Manzanilla
+nombre_cientifico(manzanilla, 'Matricaria chamomilla').
+familia(manzanilla, 'Asteraceae').
+continente_origen(manzanilla, europa).
+pais_origen(manzanilla, 'Región Mediterránea').
+parte_utilizada(manzanilla, flores). 
+modo_preparacion(manzanilla, infusion_flores).
+modo_preparacion(manzanilla, aceite_esencial).
+modo_preparacion(manzanilla, compresas).
+modo_preparacion(manzanilla, tintura).
+enfermedad(ansiedad).
+enfermedad(insomnio).
+enfermedad(indigestion).
+enfermedad(conjuntivitis).
+enfermedad(eczema).
+enfermedad(colico_menstrual).
+sintoma_enfermedad(ansiedad, nerviosismo).
+sintoma_enfermedad(insomnio, dificultad_dormir).
+sintoma_enfermedad(indigestion, pesadez_estomacal).
+sintoma_enfermedad(conjuntivitis, ojos_rojos).
+sintoma_enfermedad(eczema, picazon_piel).
+sintoma_enfermedad(colico_menstrual, dolor_uterino).
+trata_enfermedad(manzanilla, ansiedad).
+trata_enfermedad(manzanilla, insomnio).
+trata_enfermedad(manzanilla, indigestion).
+trata_enfermedad(manzanilla, conjuntivitis).  
+trata_enfermedad(manzanilla, eczema).
+trata_enfermedad(manzanilla, colico_menstrual).
+accion_efecto_planta(manzanilla, sedante_suave).
+accion_efecto_planta(manzanilla, antiespasmodico).
+accion_efecto_planta(manzanilla, antiinflamatorio).
+accion_efecto_planta(manzanilla, carminativo).  
+accion_efecto_planta(manzanilla, emenagogo).  
+modo_tratamiento(manzanilla, infusion_3g_flores_150ml).
+modo_tratamiento(manzanilla, compresas_ojos_inflamados).
+modo_tratamiento(manzanilla, aceite_diluido_masajes).
+modo_tratamiento(manzanilla, tintura_30gotas_agua).
+precaucion_planta(manzanilla, evitar_alergicos_asteraceas).
+precaucion_planta(manzanilla, no_uso_ocular_sin_filtrar).
+precaucion_planta(manzanilla, moderar_en_embarazo).
+precaucion_planta(manzanilla, no_hervir_flores).  
+
 % Pagina 115.  marrubio
 nombre_cientifico(marrubio, 'Marrubium vulgare').
 contienente_origen(marrubio, europa).
