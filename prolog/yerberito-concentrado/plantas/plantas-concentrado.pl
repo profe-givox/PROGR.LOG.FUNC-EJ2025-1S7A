@@ -20,6 +20,89 @@ precaucion_planta(abrojo, embarazo).
 
 % Pagina 38.  acanto
 
+% Pagina 49. alcanfor
+nombre_cientifico(alcanfor,laurus_camphora).
+contienente_origen(alcanfor, asia).
+pais_origen(alcanfor, taiwan).
+modo_preparacion(alcanfor, aceite).
+enfermedad(gota).
+enfermedad(piquetes_mosco).
+enfermedad(tifoidea).
+sintoma_enfermedad(gota, dolor_intenso).
+sintoma_enfermedad(gota, hinchazon).
+sintoma_enfermedad(gota, enrojecimiento).
+sintoma_enfermedad(piquetes_mosco, hinchazon).
+sintoma_enfermedad(piquetes_mosco, picazon).
+sintoma_enfermedad(tifoidea, fiebre_alta).
+sintoma_enfermedad(tifoidea, diarrea).
+sintoma_enfermedad(tifoidea, manchas_rojas).
+trata_enfermedad(alcanfor, gota).
+trata_enfermedad(alcanfor, tifoidea).
+trata_enfermedad(alcanfor, piquetes_mosco).
+trata_enfermedad(alcanfor, artritis).
+trata_enfermedad(alcanfor, arteriosclerosis).
+accion_efecto_planta(alcanfor, analgesico).
+accion_efecto_planta(alcanfor, antiseptico).
+modo_tratamiento(alcanfor, untar_aceite_3_veces_al_dia).
+precaucion_planta(alcanfor, no_usar_en_exceso).
+
+% Pagina 50. amapola amarilla
+nombre_cientifico(amapola_amarilla, eschscholtzia_californiana).
+contienente_origen(amapola_amarilla, america).
+pais_origen(amapola_amarilla, mexico).
+modo_preparacion(amapola_amarilla, infusion).
+sintoma_enfermedad(diarrea, heces_blandas).
+sintoma_enfermedad(diarrea, dolor_intestinal).
+trata_enfermedad(amapola_amarilla, diarrea).
+trata_enfermedad(amapola_amarilla, insomnio).
+trata_enfermedad(amapola_amarilla, ansiedad_leve).
+accion_efecto_planta(amapola_amarilla, sedante_suave).
+accion_efecto_planta(amapola_amarilla, antiespasmodico).
+modo_tratamiento(amapola_amarilla, tomar_infusion_1_vez_por_la_noche).
+precaucion_planta(amapola_amarilla, evitar_en_embarazo).
+precaucion_planta(amapola_amarilla, evitar_en_lactancia).
+
+% Pagina 51. amate
+nombre_cientifico(amate, ficus_insipida).
+contienente_origen(amate, america).
+pais_origen(amate, mexico).
+modo_preparacion(amate, horchata).
+enfermedad(diviesos).
+enfermedad(solitaria).
+sintoma_enfermedad(diviesos, dolor).
+sintoma_enfermedad(diviesos, inflamacion).
+sintoma_enfermedad(solitaria,malestar_estomacal).
+sintoma_enfermedad(solitaria, nauseas).
+sintoma_enfermedad(solitaria, perdida_apetito).
+trata_enfermedad(amate, reumatismo).
+trata_enfermedad(amate, diviesos).
+trata_enfermedad(amate, solitaria).
+trata_enfermedad(amate, inflamacion).
+trata_enfermedad(amate, infecciones_leves).
+accion_efecto_planta(amate, antiparasitario).
+accion_efecto_planta(amate, antiinflamatorio).
+modo_tratamiento(amate, beber_una_taza_cada_8_horas).
+precaucion_planta(amate, puede_irritar_la_piel).
+
+% Pagina 52. anis
+nombre_cientifico(anis, pimpinella_anisum).
+contienente_origen(anis, asia).
+pais_origen(anis, region_del_mediterraneo).
+modo_preparacion(anis, infusion).
+enfermedad(colitis).
+sintoma_enfermedad(colitis, diarrea).
+sintoma_enfermedad(colitis, dolor_abdominal).
+sintoma_enfermedad(colitis, sangre_en_heces).
+trata_enfermedad(anis,colitis_leve).
+trata_enfermedad(anis, indigestion).
+trata_enfermedad(anis, flatulencias).
+trata_enfermedad(anis, colicos).
+trata_enfermedad(anis, tos).
+trata_enfermedad(anis, bronquitis).
+accio_efecta_planta(anis, carminativo).
+accion_efecto_planta(anis, expectorante).
+
+
 % Pagina 57. berro
 nombre_cientifico(berro, 'Nasturtium officinale').
 contienente_origen(berro, europa).
@@ -123,6 +206,91 @@ accion_efecto_planta(cardo_santo, oftalmica).
 modo_tratamiento(cardo_santo, aplicar_gotas_ojos).
 precaucion_planta(cardo_santo, contacto_prolongado_ojos).
 
+% Pagina 65  cempasuchil
+nombre_cientifico(cempasuchil, 'Tagetes erecta').
+contienente_origen(cempasuchil, america).
+pais_origen(cempasuchil, mexíco).
+modo_preparacion(cempasuchil, te).
+enfermedad(parasitos_intestinales).
+enfermedad(tumores).
+sintoma_enfermedad(parasitos_intestinales, dolor_estomago).
+trata_enfermedad(cempasuchil, parasitos_intestinales).
+accion_efecto_planta(cempasuchil, antiparasitario).
+accion_efecto_planta(cempasuchil, tonico).
+modo_tratamiento(cempasuchil, tomar_te_en_caso_de_parasitos).
+precaucion_planta(cempasuchil, cocimiento_3_veces_al_dia).
+
+% Página 66 chaparro amargoso
+nombre_cientifico(chaparro_amargoso, 'Castela americana').
+continente_origen(chaparro_amargoso, america).
+pais_origen(chaparro_amargoso, mexico).
+modo_preparacion(chaparro_amargoso, te).
+enfermedad(disenteria_amebiana).
+enfermedad(diarrea).
+enfermedad(flujo).
+enfermedad(hemorragias_internas).
+sintoma_enfermedad(disenteria_amebiana, diarrea).
+sintoma_enfermedad(disenteria_amebiana, dolor_estomago).
+trata_enfermedad(chaparro_amargoso, disenteria_amebiana).
+trata_enfermedad(chaparro_amargoso, diarrea).
+trata_enfermedad(chaparro_amargoso, flujo).
+trata_enfermedad(chaparro_amargoso, hemorragias_internas).
+accion_efecto_planta(chaparro_amargoso, antiseptico).
+modo_tratamiento(chaparro_amargoso, tomar_te_hojas_y_corteza_2_veces_dia).
+precaucion_planta(chaparro_amargoso, 'En disentería crónica usar como lavativa').
+
+% Página 67 chicalote
+nombre_cientifico(chicalote, 'Argemone aecholtzia').
+continente_origen(chicalote, america).
+pais_origen(chicalote, mexico).
+modo_preparacion(chicalote, cocimiento).
+enfermedad(tos).
+enfermedad(asma).
+enfermedad(tosferina).
+enfermedad(epilepsia).
+enfermedad(artritis).
+enfermedad(insomnio).
+enfermedad(ansiedad).
+enfermedad(colicos_hepaticos).
+enfermedad(colicos_renales).
+enfermedad(colicos_intestinales).
+enfermedad(carnosidad_ojos).
+sintoma_enfermedad(insomnio, nerviosismo).
+sintoma_enfermedad(ansiedad, desesperacion).
+trata_enfermedad(chicalote, tos).
+trata_enfermedad(chicalote, asma).
+trata_enfermedad(chicalote, tosferina).
+trata_enfermedad(chicalote, epilepsia).
+trata_enfermedad(chicalote, artritis).
+trata_enfermedad(chicalote, insomnio).
+trata_enfermedad(chicalote, ansiedad).
+trata_enfermedad(chicalote, colicos_hepaticos).
+trata_enfermedad(chicalote, colicos_renales).
+trata_enfermedad(chicalote, colicos_intestinales).
+accion_efecto_planta(chicalote, antiespasmodico).
+accion_efecto_planta(chicalote, hipnotico).
+accion_efecto_planta(chicalote, sedante).
+modo_tratamiento(chicalote, cocimiento_2_veces_al_dia).
+modo_tratamiento(chicalote, aplicar_leche_directamente_en_ojos_en_casos_de_carnosidad).
+precaucion_planta(chicalote, 'Es un poco tóxica, usar con cuidado').
+
+% Página 68 chile 
+nombre_cientifico(chile, 'Capsicum annuum').
+continente_origen(chile, america).
+pais_origen(chile, mexico).
+modo_preparacion(chile, compresas_calientes).
+enfermedad(asma).
+enfermedad(reumatismo).
+sintoma_enfermedad(asma, dificultad_respiratoria).
+sintoma_enfermedad(reumatismo, dolor_articular).
+trata_enfermedad(chile, asma).
+trata_enfermedad(chile, reumatismo).
+accion_efecto_planta(chile, antiinflamatorio).
+accion_efecto_planta(chile, rubefaciente).
+modo_tratamiento(chile, aplicar_hojas_en_pecho_para_el_asma).
+modo_tratamiento(chile, aplicar_paños_calientes_con_cocimiento_para_reumatismo).
+precaucion_planta(chile, 'No debe darse a niños; puede irritar mucosas, diarrear, inflamar hígado y hemorroides').
+
 % Pagina 69 chichigua
 nombre_cientifico(chichigua, solanum_mammosum).
 continente_origen(chichigua, america).
@@ -190,6 +358,142 @@ accion_efecto_planta(cola_de_caballo, diuretico).
 accion_efecto_planta(cola_de_caballo, remineralizante).
 modo_tratamiento(cola_de_caballo, una_a_dos_veces_dia).
 precaucion_planta(cola_de_caballo, evitar_en_insuficiencia_renal).
+
+% Pagina 77 cuajiote
+nombre_cientifico(cuajiote, bursera_morelense).
+continente_origen(cuajiote, america).
+pais_origen(cuajiote, mexico).
+modo_preparacion(cuajiote, infusion).
+enfermedad(anasarca).
+enfermedad(estreñimiento_cronico).
+sintoma_enfermedad(anasarca, hinchazon_generalizada).
+sintoma_enfermedad(estreñimiento_cronico, estreñimiento).
+trata_enfermedad(cuajiote, anasarca).
+trata_enfermedad(cuajiote, estreñimiento_cronico).
+accion_efecto_planta(cuajiote, laxante).
+modo_tratamiento(cuajiote, uso_moderado_no_mas_de_3_dias).
+precaucion_planta(cuajiote, puede_provocar_gastroenteritis).
+precaucion_planta(cuajiote, puede_provocar_rectitis).
+precaucion_planta(cuajiote, puede_provocar_enterocolitis).
+
+% Pagina 78 cuasia
+nombre_cientifico(cuasia, quassia_amara).
+continente_origen(cuasia, america).
+pais_origen(cuasia, costa_rica).
+pais_origen(cuasia, nicaragua).
+pais_origen(cuasia, panama).
+pais_origen(cuasia, brasil).
+pais_origen(cuasia, peru).
+pais_origen(cuasia, venezuela).
+pais_origen(cuasia, surinam).
+pais_origen(cuasia, colombia).
+pais_origen(cuasia, argentina).
+pais_origen(cuasia, guyana_francesa).
+pais_origen(cuasia, guyana).
+pais_origen(cuasia, mexico).
+modo_preparacion(cuasia, infusion).
+enfermedad(diabetes).
+enfermedad(artritis).
+enfermedad(reumatismo).
+enfermedad(dolor_corporal).
+enfermedad(migraña).
+enfermedad(dolor_de_estomago).
+sintoma_enfermedad(diabetes, mucha_sed).
+sintoma_enfermedad(diabetes, fatiga).
+sintoma_enfermedad(diabetes, nivel_alto_de_glucosa).
+sintoma_enfermedad(artritis, dolor_articular).
+sintoma_enfermedad(artritis, inflamacion).
+sintoma_enfermedad(reumatismo, rigidez_articular).
+sintoma_enfermedad(reumatismo, hinchazon).
+sintoma_enfermedad(dolor_corporal, dolor).
+sintoma_enfermedad(migraña, dolor_de_cabeza).
+sintoma_enfermedad(dolor_de_estomago, nausea).
+sintoma_enfermedad(dolor_de_estomago, dolor_de_estomago).
+trata_enfermedad(cuasia, diabetes).
+trata_enfermedad(cuasia, artritis).
+trata_enfermedad(cuasia, reumatismo).
+trata_enfermedad(cuasia, dolor_corporal).
+trata_enfermedad(cuasia, migraña).
+trata_enfermedad(cuasia, dolor_de_estomago).
+accion_efecto_planta(cuasia, analgesico).
+accion_efecto_planta(cuasia, antiinflamatorio).
+accion_efecto_planta(cuasia, hipoglucemiante).
+modo_tratamiento(cuasia, una_taza_por_dia).
+precaucion_planta(cuasia, puede_provocar_irritacion_gastrica).
+precaucion_planta(cuasia, puede_provocar_vomito).
+precaucion_planta(cuasia, puede_provocar_estupor).
+
+% Pagina 79 damiana
+nombre_cientifico(damiana, turnera_diffusa).
+continente_origen(damiana, america).
+pais_origen(damiana, mexico).
+modo_preparacion(damiana, infusion).
+enfermedad(hipersexualidad).
+enfermedad(alcoholismo).
+enfermedad(diabetes).
+enfermedad(nefritis).
+enfermedad(orquitis).
+enfermedad(males_de_la_vejiga).
+sintoma_enfermedad(hipersexualidad, ansiedad).
+sintoma_enfermedad(hipersexualidad, impulsos_sexuales_intensos).
+sintoma_enfermedad(hipersexualidad, carencia_de_control_de_deseos).
+sintoma_enfermedad(alcoholismo, ansiedad).
+sintoma_enfermedad(alcoholismo, deseo_de_beber).
+sintoma_enfermedad(alcoholismo, tolerancia_alcoholica).
+sintoma_enfermedad(alcoholismo, perdida_del_control).
+sintoma_enfermedad(diabetes, mucha_sed).
+sintoma_enfermedad(diabetes, nivel_alto_de_glucosa).
+sintoma_enfermedad(nefritis, dolor_en_riñones).
+sintoma_enfermedad(nefritis, sangre_en_orina).
+sintoma_enfermedad(orquitis, hinchazon_en_testiculos).
+sintoma_enfermedad(orquitis, dolor_al_orinar).
+sintoma_enfermedad(males_de_la_vejiga, dolor_al_orinar).
+sintoma_enfermedad(males_de_la_vejiga, urgencia_frecuente).
+trata_enfermedad(damiana, hipersexualidad).
+trata_enfermedad(damiana, alcoholismo).
+trata_enfermedad(damiana, diabetes).
+trata_enfermedad(damiana, nefritis).
+trata_enfermedad(damiana, orquitis).
+trata_enfermedad(damiana, males_de_la_vejiga).
+accion_efecto_planta(damiana, relajante).
+accion_efecto_planta(damiana, diuretico).
+accion_efecto_planta(damiana, antiinflamatorio).
+modo_tratamiento(damiana, de_una_a_dos_tazas_al_dia).
+precaucion_planta(damiana, puede_provocar_insomnio).
+precaucion_planta(damiana, puede_provocar_irritacion_gastrica).
+
+%Pagina 80 diente_de_leon
+nombre_cientifico(diente_de_leon, taraxacum officinale).
+continente_origen(diente_de_leon, europa).
+continente_origen(diente_de_leon, asia).
+pais_origen(diente_de_leon, francia).
+pais_origen(diente_de_leon, alemania).
+pais_origen(diente_de_leon, españa).
+pais_origen(diente_de_leon, italia).
+pais_origen(diente_de_leon, reino_unido).
+pais_origen(diente_de_leon, rusia).
+pais_origen(diente_de_leon, china).
+pais_origen(diente_de_leon, japon).
+modo_preparacion(diente_de_leon, infusion).
+enfermedad(anemia).
+enfermedad(acumulacion_de_toxinas).
+sintoma_enfermedad(anemia, debilidad).
+sintoma_enfermedad(acumulacion_de_toxinas, toxinas_en_riñon).
+sintoma_enfermedad(acumulacion_de_toxinas, toxinas_en_higado).
+sintoma_enfermedad(acumulacion_de_toxinas, urea_en_sangre).
+trata_enfermedad(diente_de_leon, anemia).
+trata_enfermedad(diente_de_leon, acumulacion_de_toxinas).
+accion_efecto_planta(diente_de_leon, aperitivo).
+accion_efecto_planta(diente_de_leon, depurativo).
+accion_efecto_planta(diente_de_leon, laxante).
+accion_efecto_planta(diente_de_leon, colagogo).
+accion_efecto_planta(diente_de_leon, diuretico).
+accion_efecto_planta(diente_de_leon, alimenticio).
+modo_tratamiento(diente_de_leon, te_tomado_en_ayunas).
+precaucion_planta(diente_de_leon, puede_provocar_diarrea).
+precaucion_planta(diente_de_leon, puede_provocar_acidez_estomacal).
+precaucion_planta(diente_de_leon, puede_provocar_dolor_abdominal).
+precaucion_planta(diente_de_leon, puede_provocar_gases).
 
 % Pagina 81.  digitaria
 nombre_cientifico(digitaria, 'Digitalis purpurea').
@@ -401,6 +705,7 @@ accion_efecto_planta(helenio, diuretico).
 modo_tratamiento(helenio, infusion_diaria).
 precaucion_planta(helenio, dosis_excesiva).
 
+
 % Pagina 105 --- JENGIBRE ---
 nombre_cientifico(jengibre, 'Zingiber officinale').
 continente_origen(jengibre, asia).
@@ -547,6 +852,279 @@ accion_efecto_planta(maguey, antimicrobiana).
 accion_efecto_planta(maguey, antipiretica).
 
 
+% Pagina 100. Hierba del pollo
+nombre_cientifico(hierba_del_pollo, tradescantia_zebrina).
+contienente_origen(hierba_del_pollo, america).
+pais_origen(hierba_del_pollo, mexico).
+modo_preparacion(hierba_del_pollo, machacar).
+modo_preparacion(hierba_del_pollo, infusion).
+enfermedad(hemorragia).
+enfermedad(problemas_renales).
+sintoma_enfermedad(hemorragia, sangrado).
+trata_enfermedad(hierba_del_pollo, hemorragia).
+trata_enfermedad(hierba_del_pollo, problemas_renales).
+accion_efecto_planta(hierba_del_pollo, hemostatico).
+accion_efecto_planta(hierba_del_pollo, cicatrizante).
+accion_efecto_planta(hierba_del_pollo, diuretico).
+modo_tratamiento(hierba_del_pollo, aplicacion_local).
+modo_tratamiento(hierba_del_pollo, tomar_te).
+precaucion_planta(hierba_del_pollo, embarazo).
+
+% Pagina 101. Hinojo 
+nombre_cientifico(hinojo, foeniculum_vulgare).
+contienente_origen(hinojo, europa).
+pais_origen(hinojo, mexico).
+modo_preparacion(hinojo, infusion).
+enfermedad(gases).
+enfermedad(flatulencias).
+enfermedad(obstruccion_mucosa_pecho).
+sintoma_enfermedad(gases, dolor_abdominal).
+sintoma_enfermedad(flatulencias, distension_abdominal).
+trata_enfermedad(hinojo, gases).
+trata_enfermedad(hinojo, flatulencias).
+accion_efecto_planta(hinojo, digestivo).
+modo_tratamiento(hinojo, tomar_te).
+precaucion_planta(hinojo, embarazo).
+
+% Pagina 102. Jalapa (Ipomea purga)
+nombre_cientifico(jalapa, ipomea_purga).
+contienente_origen(jalapa, america).
+pais_origen(jalapa, mexico).
+modo_preparacion(jalapa, cocimiento).
+enfermedad(disentiria).
+enfermedad(estreñimiento).
+enfermedad(indigestión).
+enfermedad(apoplejia).
+enfermedad(congestion_cerebral).
+sintoma_enfermedad(disentiria, diarrea).
+sintoma_enfermedad(estreñimiento, dificultad_defecacion).
+sintoma_enfermedad(indigestión, malestar_abdominal).
+trata_enfermedad(jalapa, disenteria).
+trata_enfermedad(jalapa, estreñimiento).
+trata_enfermedad(jalapa, indigestión).
+trata_enfermedad(jalapa, apoplejía).
+trata_enfermedad(jalapa, congestión_cerebral).
+accion_efecto_planta(jalapa, purgante).
+modo_tratamiento(jalapa, tomar_en_ayunas).
+
+% Pagina 103. Ipecacuana (polygala hondurana)
+nombre_cientifico(ipecacuana, polygala_hondurana).
+contienente_origen(ipecacuana, america).
+pais_origen(ipecacuana, mexico).
+modo_preparacion(ipecacuana, infusion).
+enfermedad(tos).
+sintoma_enfermedad(tos, tos_seca).
+trata_enfermedad(ipecacuana, tos).
+accion_efecto_planta(ipecacuana, expectorante).
+modo_tratamiento(ipecacuana, tomar_infusion).
+
+% Pagina 104. Jazmín Amarillo (Gelsemium sempervirens)
+nombre_cientifico(jazmin_amarillo, gelsemium_sempervirens).
+contienente_origen(jazmin_amarillo, america).
+pais_origen(jazmin_amarillo, mexico).
+modo_preparacion(jazmin_amarillo, tintura).
+enfermedad(dolores_de_cabeza).
+enfermedad(reuma).
+enfermedad(espasmos).
+enfermedad(asmo_bronquial).
+enfermedad(menstruacion_dolorosa).
+sintoma_enfermedad(dolores_de_cabeza, dolor_intenso).
+sintoma_enfermedad(reuma, dolor_articular).
+sintoma_enfermedad(espasmos, contraccion_muscular).
+sintoma_enfermedad(asmo_bronquial, dificultad_respiratoria).
+trata_enfermedad(jazmin_amarillo, dolores_de_cabeza).
+trata_enfermedad(jazmin_amarillo, reuma).
+trata_enfermedad(jazmin_amarillo, espasmos).
+trata_enfermedad(jazmin_amarillo, asma_bronquial).
+trata_enfermedad(jazmin_amarillo, menstruacion_dolorosa).
+accion_efecto_planta(jazmin_amarillo, analgésico).
+accion_efecto_planta(jazmin_amarillo, antiespasmódico).
+precaucion_planta(jazmin_amarillo, problemas_corazon).
+precaucion_planta(jazmin_amarillo, problemas_riñones).
+modo_tratamiento(jazmin_amarillo, tomar_tintura).
+
+% Pagina 110.  maíz
+nombre_cientifico(maiz, 'Zea mays').
+contienente_origen(maiz, america).
+pais_origen(maiz, mexico).
+modo_preparacion(maiz, infusion).
+modo_preparacion(maiz, cataplasma).
+modo_preparacion(maiz, consumo_directo).
+enfermedad(problemas_renales).
+enfermedad(hipertension).
+enfermedad(problemas_digestivos).
+enfermedad(inflamacion).
+enfermedad(diabetes).
+sintoma_enfermedad(problemas_renales, dolor_espalda_baja).
+sintoma_enfermedad(hipertension, presion_alta).
+sintoma_enfermedad(problemas_digestivos, dolor_estomago).
+sintoma_enfermedad(inflamacion, hinchazon).
+sintoma_enfermedad(diabetes, niveles_azucar_altos).
+trata_enfermedad(maiz, problemas_renales).
+trata_enfermedad(maiz, hipertension).
+trata_enfermedad(maiz, problemas_digestivos).
+trata_enfermedad(maiz, inflamacion).
+trata_enfermedad(maiz, diabetes).
+accion_efecto_planta(maiz, diuretico).
+accion_efecto_planta(maiz, antiinflamatorio).
+accion_efecto_planta(maiz, regulador_glucemia).
+modo_tratamiento(maiz, tomar_te_maiz_tres_veces_dia).
+modo_tratamiento(maiz, aplicar_cataplasma_maiz).
+modo_tratamiento(maiz, consumir_maiz_hervido).
+precaucion_planta(maiz, moderar_consumo_en_diabeticos).
+precaucion_planta(maiz, evitar_exceso_si_toma_diureticos).
+
+
+% Pagina 111. Malva
+nombre_cientifico(malva, 'Malva sylvestris').
+continente_origen(malva, europa).
+pais_origen(malva, región_mediterránea). 
+modo_preparacion(malva, infusion).
+modo_preparacion(malva, cataplasma).
+modo_preparacion(malva, gargaras).
+enfermedad(irritacion_garganta).
+enfermedad(estrenimiento).
+enfermedad(problemas_piel).
+enfermedad(ulceras).
+enfermedad(inflamacion_bucal).
+sintoma_enfermedad(irritacion_garganta, dolor_al_tragar).
+sintoma_enfermedad(estrenimiento, dificultad_defecar).
+sintoma_enfermedad(problemas_piel, erupciones_cutaneas).
+sintoma_enfermedad(ulceras, llagas_estomacales).
+sintoma_enfermedad(inflamacion_bucal, encias_hinchadas).
+trata_enfermedad(malva, irritacion_garganta).
+trata_enfermedad(malva, estrenimiento).
+trata_enfermedad(malva, problemas_piel).
+trata_enfermedad(malva, ulceras).
+trata_enfermedad(malva, inflamacion_bucal).
+accion_efecto_planta(malva, emoliente).
+accion_efecto_planta(malva, antiinflamatorio).
+accion_efecto_planta(malva, laxante_suave).
+accion_efecto_planta(malva, cicatrizante).
+modo_tratamiento(malva, tomar_infusion_tres_veces_dia).
+modo_tratamiento(malva, aplicar_cataplasma_zonas_afectadas).
+modo_tratamiento(malva, hacer_gargaras_dos_veces_dia).
+precaucion_planta(malva, no_consumir_en_embarazo).
+precaucion_planta(malva, moderar_uso_en_ninos).
+precaucion_planta(malva, evitar_si_alergia_malvaceas).
+
+
+% Pagina 112. Malvavisco
+nombre_cientifico(malvavisco, 'Althaea officinalis').
+continente_origen(malvavisco, europa).
+pais_origen(malvavisco, 'Europa Oriental').
+modo_preparacion(malvavisco, infusion_raiz).
+modo_preparacion(malvavisco, jarabe).
+modo_preparacion(malvavisco, cataplasma_hojas).
+enfermedad(bronquitis).
+enfermedad(gastritis).
+enfermedad(eczema).
+enfermedad(faringitis).
+enfermedad(ciatica).
+sintoma_enfermedad(bronquitis, tos_con_flema).
+sintoma_enfermedad(gastritis, acidez_estomacal).
+sintoma_enfermedad(eczema, picor_piel).
+sintoma_enfermedad(faringitis, dolor_garganta).
+sintoma_enfermedad(ciatica, dolor_pierna).
+trata_enfermedad(malvavisco, bronquitis).
+trata_enfermedad(malvavisco, gastritis).
+trata_enfermedad(malvavisco, eczema).
+trata_enfermedad(malvavisco, faringitis).
+trata_enfermedad(malvavisco, ciatica).  
+accion_efecto_planta(malvavisco, demulcente). 
+accion_efecto_planta(malvavisco, antitusivo).
+accion_efecto_planta(malvavisco, antiacido).
+accion_efecto_planta(malvavisco, emoliente_intenso). 
+modo_tratamiento(malvavisco, tomar_jarabe_4_veces_dia).
+modo_tratamiento(malvavisco, infusion_raiz_fria).  
+modo_tratamiento(malvavisco, compresas_raiz_molida).
+
+
+
+% Pagina 113. Mangle
+nombre_cientifico(mangle, 'Rhizophora mangle').
+familia(mangle, 'Rhizophoraceae').
+continente_origen(mangle, america).
+region_origen(mangle, 'zonas_intermareales_tropicales').
+parte_utilizada(mangle, corteza).  
+parte_utilizada(mangle, hojas).
+parte_utilizada(mangle, propágulos).  
+modo_preparacion(mangle, decoccion_corteza).
+modo_preparacion(mangle, polvo_corteza).
+modo_preparacion(mangle, cataplasma_hojas).
+enfermedad(leishmaniasis).  
+enfermedad(diarrea_cronica).
+enfermedad(hemorragias).
+enfermedad(infecciones_cutaneas).
+enfermedad(hepatitis).
+sintoma_enfermedad(leishmaniasis, ulceras_piel).
+sintoma_enfermedad(diarrea_cronica, deshidratacion).
+sintoma_enfermedad(hemorragias, sangrado_excesivo).
+sintoma_enfermedad(infecciones_cutaneas, pus_piel).
+sintoma_enfermedad(hepatitis, ictericia).
+trata_enfermedad(mangle, leishmaniasis).  
+trata_enfermedad(mangle, diarrea_cronica).
+trata_enfermedad(mangle, hemorragias).
+trata_enfermedad(mangle, infecciones_cutaneas).
+trata_enfermedad(mangle, hepatitis).
+accion_efecto_planta(mangle, astringente_intenso).  
+accion_efecto_planta(mangle, antiviral).
+accion_efecto_planta(mangle, hemostatico).  
+accion_efecto_planta(mangle, cicatrizante).
+accion_efecto_planta(mangle, hepatoprotector).
+modo_tratamiento(mangle, decoccion_50g_corteza_1litro).
+modo_tratamiento(mangle, aplicar_polvo_heridas).
+modo_tratamiento(mangle, masticar_propagulos_diarrea). 
+precaucion_planta(mangle, no_uso_prolongado).  
+precaucion_planta(mangle, evitar_en_embarazo).
+precaucion_planta(mangle, maximo_7dias_continuos).
+precaucion_planta(mangle, contraindicado_anemia).  
+
+
+
+% Pagina 114. Manzanilla
+nombre_cientifico(manzanilla, 'Matricaria chamomilla').
+familia(manzanilla, 'Asteraceae').
+continente_origen(manzanilla, europa).
+pais_origen(manzanilla, 'Región Mediterránea').
+parte_utilizada(manzanilla, flores). 
+modo_preparacion(manzanilla, infusion_flores).
+modo_preparacion(manzanilla, aceite_esencial).
+modo_preparacion(manzanilla, compresas).
+modo_preparacion(manzanilla, tintura).
+enfermedad(ansiedad).
+enfermedad(insomnio).
+enfermedad(indigestion).
+enfermedad(conjuntivitis).
+enfermedad(eczema).
+enfermedad(colico_menstrual).
+sintoma_enfermedad(ansiedad, nerviosismo).
+sintoma_enfermedad(insomnio, dificultad_dormir).
+sintoma_enfermedad(indigestion, pesadez_estomacal).
+sintoma_enfermedad(conjuntivitis, ojos_rojos).
+sintoma_enfermedad(eczema, picazon_piel).
+sintoma_enfermedad(colico_menstrual, dolor_uterino).
+trata_enfermedad(manzanilla, ansiedad).
+trata_enfermedad(manzanilla, insomnio).
+trata_enfermedad(manzanilla, indigestion).
+trata_enfermedad(manzanilla, conjuntivitis).  
+trata_enfermedad(manzanilla, eczema).
+trata_enfermedad(manzanilla, colico_menstrual).
+accion_efecto_planta(manzanilla, sedante_suave).
+accion_efecto_planta(manzanilla, antiespasmodico).
+accion_efecto_planta(manzanilla, antiinflamatorio).
+accion_efecto_planta(manzanilla, carminativo).  
+accion_efecto_planta(manzanilla, emenagogo).  
+modo_tratamiento(manzanilla, infusion_3g_flores_150ml).
+modo_tratamiento(manzanilla, compresas_ojos_inflamados).
+modo_tratamiento(manzanilla, aceite_diluido_masajes).
+modo_tratamiento(manzanilla, tintura_30gotas_agua).
+precaucion_planta(manzanilla, evitar_alergicos_asteraceas).
+precaucion_planta(manzanilla, no_uso_ocular_sin_filtrar).
+precaucion_planta(manzanilla, moderar_en_embarazo).
+precaucion_planta(manzanilla, no_hervir_flores).  
+
+
 % Pagina 115.  marrubio
 nombre_cientifico(marrubio, 'Marrubium vulgare').
 contienente_origen(marrubio, europa).
@@ -665,6 +1243,65 @@ accion_efecto_planta(menta, refrescante).
 modo_tratamiento(menta, tomar_te_dos_tres_veces_dia).
 precaucion_planta(menta, reflujo_gastroesofagico).
 
+%Pagina 125 Oregano
+nombre_cientifico(oregano, origanum_vulgare).
+contienente_origen(oregano, europa).
+pais_origen(oregano, region_mediterranea).
+modo_preparacion(oregano, infusion).
+trata_enfermedad(oregano, problemas_digestivos).
+trata_enfermedad(oregano, resfriado).
+accion_efecto_planta(oregano, antiespasmodico).
+accion_efecto_planta(oregano, expectorante).
+modo_tratamiento(oregano, dos_veces_dia).
+precaucion_planta(oregano, evitar_dosis_altas).
+
+%Pagina 126 palo_de_flor
+nombre_cientifico(palo_de_flor, bourreria_huanita).
+contienente_origen(palo_de_flor, america).
+pais_origen(palo_de_flor, mexico).
+modo_preparacion(palo_de_flor, cocimiento).
+trata_enfermedad(palo_de_flor, fiebre).
+trata_enfermedad(palo_de_flor, dolor_de_cabeza).
+accion_efecto_planta(palo_de_flor, febrifugo).
+accion_efecto_planta(palo_de_flor, analgésico).
+modo_tratamiento(palo_de_flor, dos_veces_dia).
+precaucion_planta(palo_de_flor, no_prolongar_tratamiento).
+
+%Pagina 127 pasiflora
+nombre_cientifico(pasiflora, passiflora_incarnata).
+contienente_origen(pasiflora, america).
+pais_origen(pasiflora, mexico).
+modo_preparacion(pasiflora, infusion).
+trata_enfermedad(pasiflora, insomnio).
+trata_enfermedad(pasiflora, ansiedad).
+accion_efecto_planta(pasiflora, sedante).
+accion_efecto_planta(pasiflora, ansiolítico).
+modo_tratamiento(pasiflora, antes_de_dormir).
+precaucion_planta(pasiflora, no_combinar_con_alcohol).
+
+%Pagina 128 pericon
+nombre_cientifico(pericon, tagetes_lucida).
+contienente_origen(pericon, america).
+pais_origen(pericon, mexico).
+modo_preparacion(pericon, infusion).
+trata_enfermedad(pericon, colicos).
+trata_enfermedad(pericon, indigestión).
+accion_efecto_planta(pericon, digestivo).
+accion_efecto_planta(pericon, carminativo).
+modo_tratamiento(pericon, despues_comidas).
+precaucion_planta(pericon, evitar_embarazo).
+
+%Pagina 129 pinguica
+nombre_cientifico(pinguica, arctostaphylos_pungens).
+contienente_origen(pinguica, america).
+pais_origen(pinguica, mexico).
+modo_preparacion(pinguica, cocimiento).
+trata_enfermedad(pinguica, infeccion_urinaria).
+trata_enfermedad(pinguica, riñones).
+accion_efecto_planta(pinguica, diuretico).
+accion_efecto_planta(pinguica, depurativo).
+modo_tratamiento(pinguica, tres_veces_dia).
+precaucion_planta(pinguica, no_usar_por_periodos_largos).
 
 % Página 140 ruda
 nombre_cientifico(ruda, ruta_graveolens).
@@ -1159,3 +1796,69 @@ accion_efecto_planta(uva, antioxidante).
 accion_efecto_planta(uva, laxante).
 modo_tratamiento(uva, consumo_diario).
 precaucion_planta(uva, diabetes).
+
+% --- Colchino (Argemone mexicana) ---
+nombre_cientifico(colchino, 'Argemone mexicana').
+origen(colchino, mexico).
+trata(colchino, dolor_estomacal).
+trata(colchino, parasitos).
+trata(colchino, problemas_hepaticos).
+sintoma(dolor_estomacal, dolor_abdominal).
+sintoma(parasitos, comezon_anal).
+sintoma(parasitos, dolor_abdominal).
+sintoma(problemas_hepaticos, color_amarillo_en_la_piel).
+efecto(colchino, analgesico).
+efecto(colchino, antiparasitario).
+efecto(colchino, hepatoprotector).
+preparacion(colchino, infusion_de_hojas).
+precaucion(colchino, dosis_alta_toxica).
+tratamiento(colchino, tomar_taza_infusion_dos_veces_al_dia_por_5_dias).
+
+% --- Comino (Cuminum cyminum) ---
+nombre_cientifico(comino, 'Cuminum cyminum').
+origen(comino, asia).
+trata(comino, indigestión).
+trata(comino, flatulencia).
+trata(comino, colico_menstrual).
+sintoma(indigestión, pesadez_estomacal).
+sintoma(flatulencia, gases).
+sintoma(colico_menstrual, dolor_abdominal).
+efecto(comino, carminativo).
+efecto(comino, antiespasmodico).
+efecto(comino, digestivo).
+preparacion(comino, infusion_de_semillas).
+precaucion(comino, evitar_en_embarazo).
+tratamiento(comino, tomar_taza_infusion_tras_comidas).
+
+% --- Colpachi (Croton glabellus) ---
+nombre_cientifico(colpachi, 'Croton glabellus').
+origen(colpachi, mexico).
+trata(colpachi, sarampión).
+trata(colpachi, afecciones_de_la_piel).
+trata(colpachi, fiebre).
+sintoma(sarampión, fiebre).
+sintoma(sarampión, manchas_rojas).
+sintoma(afecciones_de_la_piel, irritacion).
+sintoma(fiebre, temperatura_alta).
+efecto(colpachi, antipiretico).
+efecto(colpachi, antiseptico).
+efecto(colpachi, dermatologico).
+preparacion(colpachi, decoccion_de_corteza).
+precaucion(colpachi, evitar_en_lactancia).
+tratamiento(colpachi, aplicar_infusion_tibia_en_piel_2_veces_al_dia).
+
+% --- Cuachalalate (Amphipterygium adstringens) ---
+nombre_cientifico(cuachalalate, 'Amphipterygium adstringens').
+origen(cuachalalate, mexico).
+trata(cuachalalate, ulceras).
+trata(cuachalalate, infecciones_gastrointestinales).
+trata(cuachalalate, problemas_bucales).
+sintoma(ulceras, dolor_interno).
+sintoma(infecciones_gastrointestinales, diarrea).
+sintoma(problemas_bucales, inflamacion_encias).
+efecto(cuachalalate, cicatrizante).
+efecto(cuachalalate, astringente).
+efecto(cuachalalate, antiinflamatorio).
+preparacion(cuachalalate, infusion_o_decoccion_de_corteza).
+precaucion(cuachalalate, no_uso_prolongado).
+tratamiento(cuachalalate, tomar_infusion_3_veces_al_dia_tras_las_comidas).
