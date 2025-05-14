@@ -20,6 +20,89 @@ precaucion_planta(abrojo, embarazo).
 
 % Pagina 38.  acanto
 
+% Pagina 49. alcanfor
+nombre_cientifico(alcanfor,laurus_camphora).
+contienente_origen(alcanfor, asia).
+pais_origen(alcanfor, taiwan).
+modo_preparacion(alcanfor, aceite).
+enfermedad(gota).
+enfermedad(piquetes_mosco).
+enfermedad(tifoidea).
+sintoma_enfermedad(gota, dolor_intenso).
+sintoma_enfermedad(gota, hinchazon).
+sintoma_enfermedad(gota, enrojecimiento).
+sintoma_enfermedad(piquetes_mosco, hinchazon).
+sintoma_enfermedad(piquetes_mosco, picazon).
+sintoma_enfermedad(tifoidea, fiebre_alta).
+sintoma_enfermedad(tifoidea, diarrea).
+sintoma_enfermedad(tifoidea, manchas_rojas).
+trata_enfermedad(alcanfor, gota).
+trata_enfermedad(alcanfor, tifoidea).
+trata_enfermedad(alcanfor, piquetes_mosco).
+trata_enfermedad(alcanfor, artritis).
+trata_enfermedad(alcanfor, arteriosclerosis).
+accion_efecto_planta(alcanfor, analgesico).
+accion_efecto_planta(alcanfor, antiseptico).
+modo_tratamiento(alcanfor, untar_aceite_3_veces_al_dia).
+precaucion_planta(alcanfor, no_usar_en_exceso).
+
+% Pagina 50. amapola amarilla
+nombre_cientifico(amapola_amarilla, eschscholtzia_californiana).
+contienente_origen(amapola_amarilla, america).
+pais_origen(amapola_amarilla, mexico).
+modo_preparacion(amapola_amarilla, infusion).
+sintoma_enfermedad(diarrea, heces_blandas).
+sintoma_enfermedad(diarrea, dolor_intestinal).
+trata_enfermedad(amapola_amarilla, diarrea).
+trata_enfermedad(amapola_amarilla, insomnio).
+trata_enfermedad(amapola_amarilla, ansiedad_leve).
+accion_efecto_planta(amapola_amarilla, sedante_suave).
+accion_efecto_planta(amapola_amarilla, antiespasmodico).
+modo_tratamiento(amapola_amarilla, tomar_infusion_1_vez_por_la_noche).
+precaucion_planta(amapola_amarilla, evitar_en_embarazo).
+precaucion_planta(amapola_amarilla, evitar_en_lactancia).
+
+% Pagina 51. amate
+nombre_cientifico(amate, ficus_insipida).
+contienente_origen(amate, america).
+pais_origen(amate, mexico).
+modo_preparacion(amate, horchata).
+enfermedad(diviesos).
+enfermedad(solitaria).
+sintoma_enfermedad(diviesos, dolor).
+sintoma_enfermedad(diviesos, inflamacion).
+sintoma_enfermedad(solitaria,malestar_estomacal).
+sintoma_enfermedad(solitaria, nauseas).
+sintoma_enfermedad(solitaria, perdida_apetito).
+trata_enfermedad(amate, reumatismo).
+trata_enfermedad(amate, diviesos).
+trata_enfermedad(amate, solitaria).
+trata_enfermedad(amate, inflamacion).
+trata_enfermedad(amate, infecciones_leves).
+accion_efecto_planta(amate, antiparasitario).
+accion_efecto_planta(amate, antiinflamatorio).
+modo_tratamiento(amate, beber_una_taza_cada_8_horas).
+precaucion_planta(amate, puede_irritar_la_piel).
+
+% Pagina 52. anis
+nombre_cientifico(anis, pimpinella_anisum).
+contienente_origen(anis, asia).
+pais_origen(anis, region_del_mediterraneo).
+modo_preparacion(anis, infusion).
+enfermedad(colitis).
+sintoma_enfermedad(colitis, diarrea).
+sintoma_enfermedad(colitis, dolor_abdominal).
+sintoma_enfermedad(colitis, sangre_en_heces).
+trata_enfermedad(anis,colitis_leve).
+trata_enfermedad(anis, indigestion).
+trata_enfermedad(anis, flatulencias).
+trata_enfermedad(anis, colicos).
+trata_enfermedad(anis, tos).
+trata_enfermedad(anis, bronquitis).
+accio_efecta_planta(anis, carminativo).
+accion_efecto_planta(anis, expectorante).
+
+
 % Pagina 57. berro
 nombre_cientifico(berro, 'Nasturtium officinale').
 contienente_origen(berro, europa).
