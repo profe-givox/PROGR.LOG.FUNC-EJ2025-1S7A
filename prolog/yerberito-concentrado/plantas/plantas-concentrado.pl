@@ -102,6 +102,42 @@ trata_enfermedad(anis, bronquitis).
 accio_efecta_planta(anis, carminativo).
 accion_efecto_planta(anis, expectorante).
 
+% Pagina 53. Anacahuite
+nombre_cientifico(anacahuite, cordia_boissieri).
+contienente_origen(anacahuite, america).
+pais_origen(anacahuite, mexico).
+modo_preparacion(anacahuite, cocimiento).
+trata_enfermedad(anacahuite, bronquitis).
+trata_enfermedad(anacahuite, tos).
+trata_enfermedad(anacahuite, pulmones).
+trata_enfermedad(anacahuite, resfriado).
+accion_efecto_planta(anacahuite, expectorante).
+accion_efecto_planta(anacahuite, balsamico).
+
+% Pagina 54 Árnica
+nombre_cientifico(arnica, arnica_montana).
+contienente_origen(arnica, europa).
+pais_origen(arnica, suiza).
+modo_preparacion(arnica, macera).
+trata_enfermedad(arnica, golpes).
+trata_enfermedad(arnica, torceduras).
+trata_enfermedad(arnica, moretones).
+accion_efecto_planta(arnica, antiinflamatoria).
+accion_efecto_planta(arnica, cicatrizante).
+accion_efecto_planta(arnica, analgesica).
+
+% Pagina 55 Barbasco
+nombre_cientifico(barbasco, jacquinia_arborea).
+contienente_origen(barbasco, america).
+pais_origen(barbasco, mexico).
+modo_preparacion(barbasco, cocimiento).
+trata_enfermedad(barbasco, verrugas).
+trata_enfermedad(barbasco, tina).
+trata_enfermedad(barbasco, sarna).
+trata_enfermedad(barbasco, anticonceptivo).
+accion_efecto_planta(barbasco, toxica).
+accion_efecto_planta(barbasco, irritante).
+accion_efecto_planta(barbasco, pesticida).
 
 % Pagina 57. berro
 nombre_cientifico(berro, 'Nasturtium officinale').
