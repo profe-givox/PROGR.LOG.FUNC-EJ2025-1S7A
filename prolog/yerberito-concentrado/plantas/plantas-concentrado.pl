@@ -1251,6 +1251,79 @@ accion_efecto_planta(sanguinaria, antiseptica).
 modo_tratamiento(sanguinaria, beber_o_hacer_gargaras).
 precaucion_planta(sanguinaria, toxicidad_alta_si_se_abusa).
 
+
+% Pagina 145, Sensitiva 
+nombre_cientifico(sensativa, mimosa_pudica).
+contienente_origen(sensativa, america).
+pais_origen(sensativa, centroamerica).
+modo_preparacion(sensativa, infusion_hojas).
+enfermedad(ansiedad).
+enfermedad(insomnio).
+trata_enfermedad(sensativa, ansiedad).
+trata_enfermedad(sensativa, insomnio).
+accion_efecto_planta(sensativa, sedante).
+accion_efecto_planta(sensativa, relajante).
+modo_tratamiento(sensativa, noche).
+precaucion_planta(sensativa, combinacion_sedantes).
+
+% Pagina 146, Simonillo 
+nombre_cientifico(simonillo, tagetes_lucida).
+contienente_origen(simonillo, america).
+pais_origen(simonillo, mexico).
+modo_preparacion(simonillo, te_flores).
+enfermedad(problemas_estomacales).
+enfermedad(parasitos_intestinales).
+trata_enfermedad(simonillo, problemas_estomacales).
+trata_enfermedad(simonillo, parasitos_intestinales).
+accion_efecto_planta(simonillo, digestivo).
+accion_efecto_planta(simonillo, antiparasitario).
+modo_tratamiento(simonillo, en_ayunas).
+precaucion_planta(simonillo, dosis_altas).
+
+% Pagina 147, Tamarindo 
+nombre_cientifico(tamarindo, tamarindus_indica).
+contienente_origen(tamarindo, africa).
+pais_origen(tamarindo, sudan).
+modo_preparacion(tamarindo, infusion_vainas).
+modo_preparacion(tamarindo, pulpa).
+enfermedad(estreñimiento).
+enfermedad(fiebre).
+trata_enfermedad(tamarindo, estreñimiento).
+trata_enfermedad(tamarindo, fiebre).
+accion_efecto_planta(tamarindo, laxante).
+accion_efecto_planta(tamarindo, antipiretico).
+modo_tratamiento(tamarindo, cuando_se_requiera).
+precaucion_planta(tamarindo, diarrea).
+
+% Pagina 148, Tabachín
+nombre_cientifico(tabachin, cesalpinia_pulcherrima).
+contienente_origen(tabachin, america).
+pais_origen(tabachin, mexico).
+modo_preparacion(tabachin, infusion_flores).
+enfermedad(tos).
+enfermedad(bronquitis).
+trata_enfermedad(tabachin, tos).
+trata_enfermedad(tabachin, bronquitis).
+accion_efecto_planta(tabachin, expectorante).
+accion_efecto_planta(tabachin, antitusivo).
+modo_tratamiento(tabachin, tres_veces_dia).
+precaucion_planta(tabachin, embarazo).
+
+% Pagina 149, Taray 
+nombre_cientifico(taray, tamarix_aphylla).
+contienente_origen(taray, asia).
+pais_origen(taray, regiones_aridas).
+modo_preparacion(taray, cocimiento_corteza).
+enfermedad(problemas_renales).
+enfermedad(inflamacion_ojos).
+trata_enfermedad(taray, problemas_renales).
+accion_efecto_planta(taray, diuretico).
+accion_efecto_planta(taray, antiinflamatorio).
+modo_tratamiento(taray, como_agua_de_uso).
+precaucion_planta(taray, dosis_excesivas).
+
+
+
 % Pagina 135 regaliz
 nombre_cientifico(regaliz, glycyrrhiza_glabra).
 continente_origen(regaliz, europa).
