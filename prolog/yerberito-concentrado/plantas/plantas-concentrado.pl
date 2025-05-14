@@ -20,6 +20,84 @@ precaucion_planta(abrojo, embarazo).
 
 % Pagina 38.  acanto
 
+%-- ACONITO PAG.41 --
+planta(aconito).
+nombre_cientifico(aconito, 'Aconitum napellus').
+cura(aconito, neuralgia).
+cura(aconito, fiebre).
+cura(aconito, reumatismo).
+tipo_enfermedad(neuralgia, nerviosa).
+tipo_enfermedad(fiebre, general).
+tipo_enfermedad(reumatismo, musculoesqueletica).
+uso_externo(aconito).
+parte_util(aconito, raiz).
+forma_uso(aconito, tintura).
+compatible(aconito, adormidera).
+origen(aconito, europa).
+precaucion(aconito, toxicidad_alta).
+
+%-- ADORMIDERA PAG.42 --
+planta(adormidera).
+nombre_cientifico(adormidera, 'Papaver somniferum').
+cura(adormidera, insomnio).
+cura(adormidera, dolor).
+cura(adormidera, ansiedad).
+tipo_enfermedad(insomnio, nerviosa).
+tipo_enfermedad(dolor, general).
+tipo_enfermedad(ansiedad, mental).
+uso_interno(adormidera).
+parte_util(adormidera, cápsula).
+forma_uso(adormidera, infusión).
+forma_uso(adormidera, extracto).
+compatible(adormidera, aconito).
+origen(adormidera, asia).
+precaucion(adormidera, dependencia).
+
+%-- AGUACATE PAG.43 --
+planta(aguacate).
+nombre_cientifico(aguacate, 'Persea americana').
+cura(aguacate, estreñimiento).
+cura(aguacate, problemas_digestivos).
+cura(aguacate, tos).
+tipo_enfermedad(estreñimiento, digestiva).
+tipo_enfermedad(problemas_digestivos, digestiva).
+tipo_enfermedad(tos, respiratoria).
+uso_interno(aguacate).
+parte_util(aguacate, hoja).
+forma_uso(aguacate, infusión).
+forma_uso(aguacate, cocimiento).
+compatible(aguacate, ajenjo).
+origen(aguacate, mexico).
+
+%-- AHUEHUETE PAG.44 --
+planta(ahuehuete).
+nombre_cientifico(ahuehuete, 'Taxodium mucronatum').
+cura(ahuehuete, enfermedades_respiratorias).
+cura(ahuehuete, infecciones_piel).
+tipo_enfermedad(enfermedades_respiratorias, respiratoria).
+tipo_enfermedad(infecciones_piel, cutanea).
+uso_externo(ahuehuete).
+parte_util(ahuehuete, corteza).
+forma_uso(ahuehuete, decocción).
+origen(ahuehuete, mexico).
+
+%-- AJENJO PAG.45 --
+planta(ajenjo).
+nombre_cientifico(ajenjo, 'Artemisia absinthium').
+cura(ajenjo, parásitos_intestinales).
+cura(ajenjo, problemas_digestivos).
+cura(ajenjo, debilidad_general).
+tipo_enfermedad(parásitos_intestinales, digestiva).
+tipo_enfermedad(problemas_digestivos, digestiva).
+tipo_enfermedad(debilidad_general, general).
+uso_interno(ajenjo).
+parte_util(ajenjo, hojas).
+forma_uso(ajenjo, infusión).
+forma_uso(ajenjo, macerado).
+compatible(aguacate, ajenjo).
+origen(ajenjo, europa).
+precaucion(ajenjo, embarazo).
+
 % Pagina 49. alcanfor
 nombre_cientifico(alcanfor,laurus_camphora).
 contienente_origen(alcanfor, asia).
