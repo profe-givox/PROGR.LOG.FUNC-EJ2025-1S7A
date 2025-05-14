@@ -114,7 +114,7 @@ trata_enfermedad(anacahuite, resfriado).
 accion_efecto_planta(anacahuite, expectorante).
 accion_efecto_planta(anacahuite, balsamico).
 
-% Pagina 54 Árnica
+% Pagina 54. Árnica
 nombre_cientifico(arnica, arnica_montana).
 contienente_origen(arnica, europa).
 pais_origen(arnica, suiza).
@@ -126,7 +126,7 @@ accion_efecto_planta(arnica, antiinflamatoria).
 accion_efecto_planta(arnica, cicatrizante).
 accion_efecto_planta(arnica, analgesica).
 
-% Pagina 55 Barbasco
+% Pagina 55. Barbasco
 nombre_cientifico(barbasco, jacquinia_arborea).
 contienente_origen(barbasco, america).
 pais_origen(barbasco, mexico).
@@ -138,6 +138,22 @@ trata_enfermedad(barbasco, anticonceptivo).
 accion_efecto_planta(barbasco, toxica).
 accion_efecto_planta(barbasco, irritante).
 accion_efecto_planta(barbasco, pesticida).
+
+% Pagina 56. Belladona
+nombre_cientifico(belladona, atropa_belladonna).
+contienente_origen(belladona, europa).
+pais_origen(belladona, europa_central).
+modo_preparacion(belladona, macera).
+trata_enfermedad(belladona, espasmos).
+trata_enfermedad(belladona, colicos).
+trata_enfermedad(belladona, dolores_menstruales).
+trata_enfermedad(belladona, asma).
+trata_enfermedad(belladona, parkinson).
+accion_efecto_planta(belladona, antiespasmodica).
+accion_efecto_planta(belladona, analgésica).
+accion_efecto_planta(belladona, sedante).
+accion_efecto_planta(belladona, toxica).
+
 
 % Pagina 57. berro
 nombre_cientifico(berro, 'Nasturtium officinale').
