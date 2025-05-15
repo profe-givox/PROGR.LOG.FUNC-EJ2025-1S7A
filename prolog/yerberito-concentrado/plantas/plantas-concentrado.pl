@@ -2134,3 +2134,35 @@ efecto(cuachalalate, antiinflamatorio).
 preparacion(cuachalalate, infusion_o_decoccion_de_corteza).
 precaucion(cuachalalate, no_uso_prolongado).
 tratamiento(cuachalalate, tomar_infusion_3_veces_al_dia_tras_las_comidas).
+
+% Artemio Abdiel Tenorio Sanchez zarzaparrilla
+nombre_cientifico(zarzaparrilla, smilax_aspera).  
+contienente_origen(zarzaparrilla, america).  
+pais_origen(zarzaparrilla, mexico).  
+modo_preparacion(zarzaparrilla, cocimiento).  
+enfermedad(problemas_piel).  
+enfermedad(artritis).  
+enfermedad(depurativo_sangre).  
+sintoma_enfermedad(problemas_piel, erupciones_cutaneas).  
+trata_enfermedad(zarzaparrilla, problemas_piel).  
+trata_enfermedad(zarzaparrilla, artritis).  
+accion_efecto_planta(zarzaparrilla, depurativo).  
+accion_efecto_planta(zarzaparrilla, antiinflamatorio).  
+modo_tratamiento(zarzaparrilla, dos_veces_dia).  
+precaucion_planta(zarzaparrilla, dosis_altas).  
+
+% aloe_vera
+nombre_cientifico(aloevera, aloe_barbadensis).  
+contienente_origen(aloevera, africa).  
+pais_origen(aloevera, egipto).  
+modo_preparacion(aloevera, gel_cristal).  
+enfermedad(quemaduras).  
+enfermedad(acne).  
+enfermedad(estrenimiento).  
+sintoma_enfermedad(quemaduras, dolor_piel).  
+trata_enfermedad(aloevera, quemaduras).  
+trata_enfermedad(aloevera, acne).  
+accion_efecto_planta(aloevera, cicatrizante).  
+accion_efecto_planta(aloevera, laxante).  
+modo_tratamiento(aloevera, aplicar_zona_afectada).  
+precaucion_planta(aloevera, alergias_piel).  
