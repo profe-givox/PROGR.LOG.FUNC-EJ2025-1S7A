@@ -98,6 +98,70 @@ compatible(aguacate, ajenjo).
 origen(ajenjo, europa).
 precaucion(ajenjo, embarazo).
 
+% Pagina 46. ajo
+nombre_cientifico(ajo, allium_sativum).
+contienente_origen(ajo, asia_central).
+pais_origen(ajo, siberia).
+pais_origen(ajo, norte_de_iran).
+modo_preparacion(ajo, con_miel).
+modo_preparacion(ajo, machacar).
+modo_preparacion(ajo, molido_con_leche).
+enfermedad(reumas).
+enfermedad(sarna).
+enfermedad(tina).
+enfermedad(callos).
+enfermedad(lombrices).
+sintoma_enfermedad(reumas, dolor_articular).
+sintoma_enfermedad(sarna, erupcion_en_la_piel).
+sintoma_enfermedad(tina, Manchas_circulares_rojas).
+sintoma_enfermedad(callos, piel_engrosada_y_amarillenta).
+sintoma_enfermedad(lombrices, picazon_anal).
+trata_enfermedad(ajo, reumas).
+trata_enfermedad(ajo, sarna).
+trata_enfermedad(ajo, tina).
+trata_enfermedad(ajo, callos).
+trata_enfermedad(ajo, lombrices).
+accion_efecto_planta(ajo, antiinflamantorio).
+accion_efecto_planta(ajo, vermifugo).
+accion_efecto_planta(ajo, febrifugo).
+accion_efecto_planta(ajo, diuretico).
+accion_efecto_planta(ajo, expectorante).
+accion_efecto_planta(ajo, antiparasitario).
+modo_tratamiento(ajo, consumo_en_ayunas).
+modo_tratamiento(ajo, aplicado_directamente).
+precaucion_planta(ajo, problemas_gastrointestinales).
+
+% Pagina 47. albahaca
+nombre_cientifico(albahaca, ocimum_basilicum).
+contienente_origen(albahaca, asia_central_y_africa).
+pais_origen(albahaca, india).
+modo_preparacion(albahaca, jugo).
+enfermedad(alopecia).
+sintoma_enfermedad(alopecia, caida_de_cabello).
+trata_enfermedad(albahaca, alopecia).
+accion_efecto_planta(albahaca, tonico_capilar).
+accion_efecto_planta(albahaca, diuretica).
+accion_efecto_planta(albahaca, carminativa).
+accion_efecto_planta(albahaca, emenagoga).
+modo_tratamiento(albahaca, riccionarse_en_pelo).
+precaucion_planta(albahaca, reacciones_alergicas).
+
+% Pagina 48. alcachofa
+nombre_cientifico(alcachofa, cynara_scalimus).
+contienente_origen(alcachofa,africa).
+pais_origen(alcachofa, egipto).
+modo_preparacion(alcachofa, cocer).
+enfermedad(diabetes).
+enfermedad(anemia).
+sintoma_enfermedad(diabetes, sed_excesiva).
+sintoma_enfermedad(anemia, cansancio_y_debilidad).
+trata_enfermedad(alcachofa, diabetes).
+trata_enfermedad(alcachofa, anemia).
+accion_efecto_planta(alcachofa, descongestionante).
+accion_efecto_planta(alcachofa, desimflamatorio).
+modo_tratamiento(alcachofa, tomarlo_con_gusto).
+precaucion_planta(alcachofa, alergias).
+
 % Pagina 49. alcanfor
 nombre_cientifico(alcanfor,laurus_camphora).
 contienente_origen(alcanfor, asia).
